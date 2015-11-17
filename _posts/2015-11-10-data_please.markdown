@@ -3,13 +3,13 @@ layout:     post
 title:      "Please give me your data"
 subtitle:   "Seriously, is it me?"
 date:       2015-11-10 12:00:00
-author:     "Joe Cafe"
+author:     "Pepe Cafe"
 header-img: "img/data_please/data_please_1.JPG"
 ---
 
 <p>Hi again!</p>
 
-<p>It's me, Joe, from Swashbuckle.  We exchanged a few emails a couple months ago.  And then I exchanged some, by myself.  Well, I sent them to you, but you never wrote back.</p>
+<p>It's me, Pepe, from Swashbuckle.  We exchanged a few emails a couple months ago.  And then I exchanged some, by myself.  Well, I sent them to you, but you never wrote back.</p>
 
 <p>Weeks passed, then the weeks became fortnights (I just learned that word, isn't it cool, it makes me sound British, doesn't it!?), then the fortnights (awesome word!) became months. No reply.</p>
 
