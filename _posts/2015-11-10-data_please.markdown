@@ -3,7 +3,7 @@ layout:     post
 title:      "Please give me your data"
 subtitle:   "Seriously, is it me?"
 date:       2015-11-10 12:00:00
-author:     "Joe Brew"
+author:     "Joe Cafe"
 header-img: "img/data_please/data_please_1.JPG"
 ---
 
