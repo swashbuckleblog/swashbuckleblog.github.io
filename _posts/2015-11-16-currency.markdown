@@ -1,0 +1,60 @@
+---
+layout:     post
+title:      "Accurate, but irrelevant"
+subtitle:   "Predictions that don't take into account forex are almost completely useless, yet major institutions continue to look the other way."
+date:       2015-11-16 12:00:00
+author:     "Emi Rigoberto Savaggio"
+header-img: "img/currency/currency1.JPG"
+---
+
+<p>I love economics so much.  I mean really, is there any other "academic discipline" that combines astrology, heresay, hunches and witchraft, and yet still gets a Nobel every year?  Economics is the farking beez-kneez, bitch.</p>
+
+<p>Which brings me to my next point: currency.  "Currency" from the latin "current" meaning that moment in the conversation when everyone realizes someone farted, but nobody wants to talk bout it. Not really going anywhere with that.  I just find that starting all discussions of any topic with a quick "from the latin..." makes me look smart.  And chicks dig it.</p>
+
+<p>So, what's so significant about currency?  Or better, what's so current about significancy?!?!  Aha - you didn't see that coming, did you?</p>
+
+<p>An old wise man once told a shopkeeper, "if you keep your savings in gold, then the government will tax you; if you keep your savings in rice, then you will be tempted to eat it. But, if you keep your savings in this <a href="http://www.tierrayucatan.com/listings/en/4">once-in-a-lifetime real estate investment opportunity</a>, then you will be rich and all the girls will love you.  </p>
+
+<p>I'm "legally obligated" to tell you that Swashbuckle has a professional agreement with the above real estate agency.</p>
+
+<h2 class="section-heading">Currency is the only thing that matters</h2>
+
+<p>Really, it is.  Screw Christmas, forget your marital vows, and park in the handicapped spot, cause if it ain't currency, I ain't listening!</p>
+
+<p>For real!  If you don't believe me, look at the below chart.</p>
+
+<a href="#">
+    <img src="{{ site.baseurl }}/img/currency/currency3.JPG" alt="This chart took me literally 9 hours to create.">
+</a>
+<span class="caption text-muted">The line is going up.  Or down.  It depends which side you start on.</span>
+
+See how the line is trending towards the axis at which the radial galapogos goose goes going?  What I mean to say is that the Ugandan, er, money is being increasingly increased while the American, uh, deflation!
+
+Which brings me to my next point.  Human travel to Mars is not as inevitable as some would make you think.
+
+<h2 class="section-heading">Mars?  Forget about it!</h2>
+
+<a href="#">
+    <img src="{{ site.baseurl }}/img/currency/currency2.JPG" alt="Emi Savaggio is so smart">
+</a>
+<span class="caption text-muted">Coffee is the motor that keeps the economy running.  All swashbucklers know that.</span>
+
+<p>All this talk about Mars.  Mars this, mars that.  Why the obsession with this inhospitable wasteland.  Proximity?  If we wanted close, we'd move to New Jersey, not Mars!</p>
+
+<p>Plus, Jupiter isn't really that far away.  See?</p>
+
+<a href="#">
+    <img src="{{ site.baseurl }}/img/currency/currency4.JPG" alt="Planets!  ">
+</a>
+<span class="caption text-muted">Earth and Jupiter.  Not to scale..</span>
+
+
+<p>I say we go to Jupiter, first.  Jupiter has many advantageous advantages.  It has three nice-sounding syllables, beautiful rings, and it is the only planet after which NONE of the seven dwarves are named! </p>
+
+<p>Gotta go! </p>
+
+Photographs by <a href="http://www.theguardian.com/environment/2008/jun/07/bottlenose.dolphin">Joe Brew</a>.
+
+
+
+
