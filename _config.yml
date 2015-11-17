@@ -3,7 +3,6 @@ title: The Swashbuckle Blog
 header-img: img/landing.JPG
 email: joe@swashbuckle.io
 description: "The Lendablog"
-baseurl: "/blog"
 url: "http://yourdomain.com"
 twitter_username: swashbuckleinc
 github_username:  joebrew
