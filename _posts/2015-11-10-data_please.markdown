@@ -22,9 +22,9 @@ header-img: "img/data_please/data_please_1.JPG"
 <p>(Don't worry, it wasn't some stranger's baby.  This was a baby that's been hanging around my house for a while, acting weird and stuff.)</p>
 
 <a href="#">
-    <img src="{{ site.baseurl }}/img/data_please/data_please_2.JPG" alt="I can't really think of any way in which this photo is relevant">
+    <img src="{{ site.baseurl }}/img/data_please/data_please_2.JPG" alt="">
 </a>
-<span class="caption text-muted">Imagine, you and me, playing the data-for-in-kind-analysis marimba together, forever.</span>
+<span class="caption text-muted">Super visible: the little plastic thingy with a reflector sticks out, the panniers have reflective fabric, lots of space for tail-lights, and lots of reflective stickers.</span>
 
 
 
