@@ -1,24 +1,32 @@
 body {
-  font-family: 'Lora', 'Times New Roman', serif;
-  font-size: 20px;
-  color: #404040;
+  font-family: proxima-nova, sans-serif;
+  font-size: 24px;
+  color: #3A3A3A;
 }
 p {
   line-height: 1.5;
-  margin: 30px 0;
+  margin: 34px 0;
 }
 p a {
   text-decoration: underline;
 }
 h1,
 h2,
-h3,
+h3, {
+  font-family: proxima-nova, sans-serif;
+  font-style: bold;
+  font-weight: 800;
+}
+
 h4,
 h5,
 h6 {
-  font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-family: proxima-nova, sans-serif;
   font-weight: 800;
+  font-style: bold;
+
 }
+
 a {
   color: #404040;
 }
@@ -164,7 +172,8 @@ hr.small {
   font-size: 24px;
   line-height: 1.1;
   display: block;
-  font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  /*font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;*/
+  font-family: proxima-nova, sans-serif;
   font-weight: 300;
   margin: 10px 0 0;
 }
@@ -175,7 +184,9 @@ hr.small {
   }
 }
 .intro-header .post-heading h1 {
-  font-size: 35px;
+  font-size: 40px;
+    font-style: bold;
+
 }
 .intro-header .post-heading .subheading,
 .intro-header .post-heading .meta {
@@ -183,13 +194,15 @@ hr.small {
   display: block;
 }
 .intro-header .post-heading .subheading {
-  font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  /*font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;*/
+    font-family: proxima-nova, sans-serif;
   font-size: 24px;
   margin: 10px 0 30px;
   font-weight: 600;
 }
 .intro-header .post-heading .meta {
-  font-family: 'Lora', 'Times New Roman', serif;
+  /*font-family: 'Lora', 'Times New Roman', serif;*/
+    font-family: proxima-nova, sans-serif;
   font-style: italic;
   font-weight: 300;
   font-size: 20px;
@@ -321,7 +334,8 @@ form .row:first-child .floating-label-form-group {
   border-top: 1px solid #eeeeee;
 }
 .btn {
-  font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  /*font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;*/
+    font-family: proxima-nova, sans-serif;
   text-transform: uppercase;
   font-size: 14px;
   font-weight: 800;
@@ -344,7 +358,9 @@ form .row:first-child .floating-label-form-group {
 }
 .pager li > a,
 .pager li > span {
-  font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  /*font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;*/
+    font-family: proxima-nova, sans-serif;
+
   text-transform: uppercase;
   font-size: 14px;
   font-weight: 800;
@@ -398,7 +414,7 @@ body {
 
 
 /* ====================================
-   Demo specific styling
+   VIDEO STUFF
    ==================================== */
 
 .header-video {
@@ -427,9 +443,10 @@ body {
     z-index:2;
     position: absolute;
     color:white;
-    font-size: 600%;
-      font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
-  display: block;
+    font-size: 400%;
+        font-family: prodixa-nova, sans-serif;
+/*      font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;*/  
+    display: block;
   margin-left: auto;
   margin-right: auto;
 }
