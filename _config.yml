@@ -1,12 +1,12 @@
 # Site settings
-title: The Swashbuckle Blog
+title: The Lendable Blog
 header-img: img/landing.JPG
-email: joe@swashbuckle.io
+email: joe@lendable.io
 description: "The Lendablog"
-url: "http://yourdomain.com"
-twitter_username: swashbuckleinc
-github_username:  swashbuckleblog
-facebook_username:  swashbuckle
+url: "http://lendable.io"
+twitter_username: lendableinc
+# github_username:  lendablexxx
+# facebook_username:  swashbuckle
 # paginate: 20
 # paginate_path: "/blog/page/:num"
 
