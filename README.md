@@ -1,2 +1,2 @@
-# swashbuckleblog.github.io
-Swashbuckle's blog
+# lendable.io/blog
+Lendable's blog

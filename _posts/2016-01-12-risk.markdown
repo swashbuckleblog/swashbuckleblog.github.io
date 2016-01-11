@@ -1,0 +1,78 @@
+---
+layout:     post
+title:      "This risk isn't like the others"
+subtitle:   "Lendable's multi-dimensional framework accounts for the different kinds of risk, and how they affect portfolio volatility"
+date:       2016-01-11 12:00:00
+author:     "Jim Savage, data scientist"
+header-img: "img/risk/currency1.JPG"
+---
+
+# **A case study**
+
+Joseph, a shopkeeper just outside Kampala, Uganda, recently had a small solar power unit installed. He will use the power to light his store and to offer cell phone charging to locals. To finance the unit, he entered a two year repayment contract with ACME Solar; he had to put down 20 percent of the $600 USD as an initial downpayment, and is obliged to repay the remaining amount in 23 monthly instalments.
+
+Meanwhile, ACME Solar wants to satisfy the growing demand for consumer solar in Uganda. They need to import more solar units and hire more staff. Yet the cashflows from Joseph and other customers like him take time to come in, while manufacturers and new staff need to be paid today. This is where Lendable comes in.
+
+As you’ve likely read elsewhere, we allow firms like ACME—firms providing finance to the unbanked— to securitise their receivables. We advance ACME a —which they’ll use to finance growth—in exchange for the right to receive cashflows from their receivables.
+
+A big question for those lending against consumer receivables is whether people like Joseph are going to repay the full value of the contract, and over what time-frame. Lendable has developed sophisticated tools for examining these risks, and below we open the kimono.
+
+# **Lendable’s repayment risk framework**
+
+The risks of Joseph defaulting, or paying his debt more slowly than anticipated, can be thought of as coming from two broad sources. We call these “portfolio risk”--those risk factors that are external to Joseph--and “credit risk”--the risk of lending to Joseph that are distinctive to him. It’s helpful to separate these risks, as they impact lenders in different ways. 
+
+Portfolio risk is the primary driver of whether investors purchasing many receivables get their money back. Because of the very salient nature of portfolio risk, portfolios are often described in terms of statistics that proxy for Portfolio risk, like Portfolio At Risk, the default rate, and loss given default.
+
+Another more direct way of describing the portfolio risk is to look at the variation in monthly cashflows relative to the ideal case of all customers paying. This measure is affected by many aspects of Portfolio risk. Defaults, early repayments, geo-political events, crop failures, and the lender’s credit policies may all result in variation in monthly portfolio-level repayments. 
+
+The issue is that any understanding of portfolio risk will be superficial without understanding the risks of the individual loans that make up the portfolio. A somewhat common illustration of this is when a lender’s new customers are very good at making payments for the first few months, but then tend to start missing payments. If the lender’s portfolio is growing quickly, the addition of more and more new customers (who make payments on time) can offset the poor performance of older customers, making aggregate statistics for the lender look fine, even if a portfolio of a fixed number of receivables is unsustainable.
+
+Lendable’s approach to this problem is to build up our estimates of Portfolio Risk from models of individual customer behaviour, where each customer’s monthly repayments are potentially correlated with other customers’. This is where our lower-level concepts of risk come in.
+
+If Portfolio risk tells us how much we should expect repayments to vary for the average customer, Credit risk tells us about Joseph’s probability of defaulting, controlling for the portfolio risk. It summarises our understanding of his ability and willingness to repay, given his personal details, product choice, geographic information and so on. In developed markets, credit risk is summarised by credit scores (like the US’s FICO score) calculated by credit bureaus like Experian, TransUnion or Equifax. 
+
+
+<a href="#">
+    <center><img src="{{ site.baseurl }}/img/risk/diagram.png" alt="Emi Savaggio is so smart"></center>
+</a>
+<span class="caption text-muted">Here's a diagram with boxes and arrows.  Clearly, we're geniuses.</span>
+
+
+Calculating credit scores for the unbanked is not straightforward. While the FICO score contains information about an individual’s loans, leverage, credit history, applications for credit etc., none of this information is available for folks like Joseph. Rather, we use the information available—demographics, household size, household assets, housing type, regional characteristics etc.—to estimate credit scores. In our tests, we find that scores generated this way can be about as informative to default risk as FICO scores are.
+
+From the perspective of a lender, the raw probability of Joseph’s default isn’t the be-all and end-all of credit risk modelling. Joseph may have the same risk of default as his neighbour, Florence, even if Florence can be expected to repay a greater proportion of her loan before defaulting. What’s more, even if Joseph and Florence have the same probability of default, Joseph may be more likely to default during a period when many others are defaulting, while Florence’s risk may be less correlated with portfolio performance. In both of these situations, Florence is a “better” risk, even though she has the same probability of defaulting as Joseph. Put differently, Joseph and Florence can have the same credit score yet be significantly different customers from a risk management perspective.
+
+
+<a href="{{ site.baseurl }}/img/risk/random.jpg">
+    <center><img src="{{ site.baseurl }}/img/risk/random.jpg"></center>
+</a>
+<span class="caption text-muted">This is a book.  I'm not sure why there's a picture of it.  Need a caption here.</span>
+
+
+
+# **Induction problems**
+
+The central issue with modelling portfolio risk is that the range of plausible scenarios for a portfolio of receivables are much wider than what has been observed in the data. This means that estimates of portfolio risk that come solely from observed histroy will always be a rosy view of the true risk—the so-called inductive fallacy.
+
+
+We employ two practices that can help with this problem. First, our risk engine explicitly allows for large “shocks”—disruptions to payments of a scale not yet been observed. Second, while the portfolios that we monitor have not experienced a “black swan” event, there are many other asset classes that have. We cannot predict black swans, but through deep research of various historical episodes, we can get an idea of what they look like, and incorporate the magnitudes of such possibilities in our models.
+
+
+# **How do we do this?**
+
+
+Unlike many banks and insurance companies, Lendable has no problems with outdated legacy software or large corporate bureaucracy, allowing us to develop a Portfolio Risk Engine that makes use of very recent advances in computation, statistics and machine learning.
+
+The risk engine is built on observations of each customer’s account over time, rather than the two industry norms of aggregating all accounts together or using a “static” model that does not model changes over time. While both of these more common techniques are easier to handle than Lendable’s approach, they throw out useful information, leading to inferior predictions.
+The risk engine is made up of several models, each of which is designed to focus on a particular type of risk. These models are then combined in a way that gives more weight to the models that perform better.
+The risk models are estimated using Bayesian techniques, which provides several advantages over more traditional (“frequentist”) approaches
+When the risk engine generates predictions, these predictions incorporate uncertainty not only about the average quality of how well the model describes the data (as is standard), but also how well the model parameters are estimated. 
+Bayesian modelling allows outside information to be incorporated--not just information from the data. Thus we can incorporate knowledge from one originator with ample history into the modelling for another. 
+Bayesian modelling provides a coherent framework for combining predictions of various models into a single prediction. 
+
+
+# **Conclusion**  
+
+Something goes here.
+
+
