@@ -36,7 +36,7 @@ If _Portfolio risk_ tells us how much we should expect repayments to vary for th
 <a href="#">
     <center><img src="{{ site.baseurl }}/img/risk/diagram.png" alt="Emi Savaggio is so smart"></center>
 </a>
-<span class="caption text-muted">Here's a diagram with boxes and arrows.  Clearly, we're geniuses.</span>
+<span class="caption text-muted">Risk is correlated, associated, and interacting.</span>
 
 
 Calculating credit scores for the unbanked is not straightforward. While the FICO score contains information about an individual’s loans, leverage, credit history, applications for credit etc., none of this information is available for folks like Joseph. Rather, we use the information available—demographics, household size, household assets, housing type, regional characteristics, past relationship with the same originator etc.—to estimate credit scores. Once we have observed a few weeks’ repayment behavior, we find that scores generated this way can be about as informative to default risk as FICO scores are.
