@@ -1,3 +1,17 @@
+@font-face {
+  font-family: 'Margot';
+  src: url("http://lendable.io/fonts/Margot-Regular.ttf");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Margot';
+  src: url("http://lendable.io/fonts/Margot-Bold.ttf");
+  font-weight: bold;
+  font-style: normal;
+}
+
 body {
   font-family: proxima-nova, sans-serif;
   font-size: 18px;
@@ -52,7 +66,8 @@ hr.small {
   border-color: white;
 }
 .navbar-custom {
-  background: white;
+  background-color: rgba(253,253,253,0.95) !important;
+  color: rgb(58,58,58) !important;
   position: absolute;
   top: 0;
   left: 0;
@@ -63,35 +78,52 @@ hr.small {
 
 }
 
+.navbar-custom img {
+  height: 24px;
+  cursor: pointer !important;
+}
+
 .navbar-custom .navbar-brand {
   font-weight: 800;
+  margin-left: 0px !important;
 }
 .navbar-custom .nav li a {
-  text-transform: uppercase;
-  font-size: 12px;
-  font-weight: 800;
-  letter-spacing: 1px;
+  font-size: 14.4px;
+  color: rgb(58,58,58) !important;
+  font-family: 'Margot';
+}
+.navbar-custom .nav li a.active {
+  font-weight: 700;
 }
 @media only screen and (min-width: 768px) {
+  .navbar-custom img {
+    height: 46px;
+    margin-top: 5px;
+    margin-bottom: 4px;
+  }
+  .navbar-custom .container-fluid {
+    padding: 0;
+    width: 976px;
+  }
   .navbar-custom {
     background: transparent;
     border-bottom: 1px solid transparent;
   }
   .navbar-custom .navbar-brand {
-    color: white;
-    padding: 20px;
+    color: rgb(58,58,58) !important;
+    padding: 0px;
   }
   .navbar-custom .navbar-brand:hover,
   .navbar-custom .navbar-brand:focus {
-    color: rgba(255, 255, 255, 0.8);
+    color: rgb(58,58,58) !important;
   }
   .navbar-custom .nav li a {
-    color: white;
-    padding: 20px;
+    color: rgb(58,58,58) !important;
+    padding: 20px 10px 17px;
   }
   .navbar-custom .nav li a:hover,
   .navbar-custom .nav li a:focus {
-    color: rgba(255, 255, 255, 0.8);
+    color: rgb(58,58,58) !important;
   }
 }
 @media only screen and (min-width: 1170px) {
@@ -119,18 +151,18 @@ hr.small {
     transition: transform 0.3s;
   }
   .navbar-custom.is-fixed .navbar-brand {
-    color: #404040;
+    color: rgb(58,58,58) !important;
   }
   .navbar-custom.is-fixed .navbar-brand:hover,
   .navbar-custom.is-fixed .navbar-brand:focus {
-    color: #0085a1;
+    color: rgb(58,58,58) !important;
   }
   .navbar-custom.is-fixed .nav li a {
-    color: #404040;
+    color: rgb(58,58,58) !important;
   }
   .navbar-custom.is-fixed .nav li a:hover,
   .navbar-custom.is-fixed .nav li a:focus {
-    color: #0085a1;
+    color: rgb(58,58,58) !important;
   }
   .navbar-custom.is-visible {
     /* if the user changes the scrolling direction, we show the header */

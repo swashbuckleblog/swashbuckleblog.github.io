@@ -10,6 +10,7 @@ twitter_username: lendableinc
 # facebook_username:  swashbuckle
 # paginate: 20
 # paginate_path: "/blog/page/:num"
+gems: [jekyll-paginate]
 
 # Build settings
 markdown: kramdown
