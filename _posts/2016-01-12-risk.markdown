@@ -34,7 +34,7 @@ If _Portfolio risk_ tells us how much we should expect repayments to vary for th
 
 
 <a href="#">
-    <center><img src="{{ site.baseurl }}/img/risk/diagram.png" alt="Emi Savaggio is so smart"></center>
+    <center><img src="{{ site.baseurl }}/img/risk/diagram.png" alt=""></center>
 </a>
 <span class="caption text-muted">Risk is correlated, associated, and interacting.</span>
 
