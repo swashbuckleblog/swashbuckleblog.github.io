@@ -4,7 +4,7 @@ header-img: img/shop_owner_data.png
 email: joe@lendable.io
 description: "Lendable blog"
 url: "http://lendable.io"
-baseurl: /blog
+# baseurl: /blog
 twitter_username: lendableinc
 # github_username:  lendablexxx
 # facebook_username:  swashbuckle
