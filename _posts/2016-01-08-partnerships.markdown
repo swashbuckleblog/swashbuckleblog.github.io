@@ -4,7 +4,7 @@ title:      "The value of partnerships"
 subtitle:   "Lendable isn't just a business - it's the embodiment of an idea, and a team of people who believe in it"
 date:       2016-01-08 12:00:00
 author:     "Daniel Goldfarb, CEO"
-header-img: "img/partnerships/tug_of_war.png"
+header-img: "img/partnerships/tug_of_war_original.png"
 ---
 
 # **BEHIND EVERY GREAT COMPANY...**
