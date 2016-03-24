@@ -13,7 +13,7 @@ Joseph, a shopkeeper just outside Kampala, Uganda, recently had a small solar po
  
 Meanwhile, ACME Solar wants to satisfy the growing demand for consumer solar in Uganda. They need to import more solar units and hire more staff. Yet the cashflows from Joseph and other customers like him take time to come in, while manufacturers and new staff need to be paid today. This is where Lendable comes in.
  
-As you’ve likely read elsewhere, we allow firms like ACME—firms providing finance to the unbanked— to securitise their receivables. We advance ACME a proportion of the face value of their receivables, which they’ll use to finance growth, in exchange for the right to receive cashflows from their receivables.
+As you’ve likely read elsewhere, we allow firms like ACME—firms providing financed consumer durables to the unbanked— to securitise their receivables. We advance ACME a proportion of the face value of their receivables, which they’ll use to finance growth, in exchange for the right to receive cashflows from their receivables.
  
 It’s not an overstatement to say that Joseph’s repayments (how much he will repay and over what time-frame) are the most basic unit in the value chain. Predicting the characteristics of Joseph’s repayments can give both ACME and those who purchase its receivables an edge. To these ends, Lendable has built tools to help predict how good a customer Joseph is likely to be. These tools are based on best practice in credit risk and asset management, but here applied to the unbanked.
 
@@ -21,15 +21,14 @@ It’s not an overstatement to say that Joseph’s repayments (how much he will 
 
 The risks of Joseph defaulting or, more commonly, paying his debt more slowly than anticipated, can be thought of as coming from two broad sources. We call these “portfolio risk”, those risk factors that are external to Joseph, and “credit risk”, the risk of lending to Joseph that are distinctive to him. It’s helpful to separate these risks; without understanding the magnitude of each, we have no understand about what is driving risk in the portfolio and therefore cannot mitigate it.
  
-Portfolio risk is the primary driver of whether investors purchasing many receivables get their money back. Because of the very salient nature of portfolio risk, portfolios are often described in terms of statistics that proxy for Portfolio risk, like Portfolio At Risk, the default rate, and loss given default.
+Portfolio risk is the primary driver of whether investors purchasing many receivables get their money back. It is often described in terms of statistics that proxy for portfolio risk, like portfolio at risk, the default rate, and loss given default. Another more direct way of describing the portfolio risk is to look at the variation in monthly cashflows relative to the ideal case of all borrowers making their due payments. This measure is affected by many aspects of portfolio risk. Defaults, late payments, early repayments, geo-political events, crop failures, and the lender’s credit policies may all result in variation in monthly portfolio-level repayments.
  
-Another more direct way of describing the portfolio risk is to look at the variation in monthly cashflows relative to the ideal case of all customers paying. This measure is affected by many aspects of Portfolio risk. Defaults, late payments, early repayments, geo-political events, crop failures, and the lender’s credit policies may all result in variation in monthly portfolio-level repayments.
+But don’t be fooled by aggregate portfolio measures. Portfolio risk is simply an aggregation of individual risks, and looking only at portfolio-level performance can mask real issues at the level of individual borrowers. A somewhat common illustration of this is when a lender’s new customers are very good at making payments for the first few months, but then tend to start missing payments. If the lender’s portfolio is growing quickly, the addition of more and more new customers (who make payments on time) can offset the poor performance of older customers, making aggregate statistics for the lender look fine, even if a portfolio of a fixed number of receivables is unsustainable.
+
  
-Any understanding of portfolio risk will be superficial without understanding the risks of the individual loans that make up the portfolio. A somewhat common illustration of this is when a lender’s new customers are very good at making payments for the first few months, but then tend to start missing payments. If the lender’s portfolio is growing quickly, the addition of more and more new customers (who make payments on time) can offset the poor performance of older customers, making aggregate statistics for the lender look fine, even if a portfolio of a fixed number of receivables is unsustainable.
+Lendable’s approach to this problem is to build up our estimates of portfolio risk from models of individual customer behaviour, where each customer’s monthly repayments are potentially correlated with other customers’. This is where our lower-level concepts of risk come in.
  
-Lendable’s approach to this problem is to build up our estimates of Portfolio Risk from models of individual customer behaviour, where each customer’s monthly repayments are potentially correlated with other customers’. This is where our lower-level concepts of risk come in.
- 
-If _Portfolio risk_ tells us how much we should expect repayments to vary for the average customer, _Credit risk_ tells us about Joseph’s probability of defaulting, controlling for the portfolio risk. It summarises our understanding of his ability and willingness to repay, given his personal details, product choice, geographic information and so on. In developed markets, credit risk is summarised by credit scores (like the US’s FICO score) calculated by credit bureaus like Experian, TransUnion or Equifax.
+If _portfolio risk_ tells us how much we should expect repayments to vary for the average customer, _Credit risk_ tells us about Joseph’s probability of defaulting, controlling for the portfolio risk. It summarises our understanding of his ability and willingness to repay, given his personal details, product choice, geographic information and so on. In developed markets, credit risk is summarised by credit scores (like the US’s FICO score) calculated by credit bureaus like Experian, TransUnion or Equifax.
 
 
 
@@ -41,14 +40,13 @@ If _Portfolio risk_ tells us how much we should expect repayments to vary for th
 
 Calculating credit scores for the unbanked is not straightforward. While the FICO score contains information about an individual’s loans, leverage, credit history, applications for credit etc., none of this information is available for folks like Joseph. Rather, we use the information available—demographics, household size, household assets, housing type, regional characteristics, past relationship with the same originator etc.—to estimate credit scores. Once we have observed a few weeks’ repayment behavior, we find that scores generated this way can be about as informative to default risk as FICO scores are.
  
-From the perspective of a lender, the raw probability of Joseph’s default is just the beginning of credit risk modelling. Joseph may have the same risk of default as his neighbour, Florence, even if Florence can be expected to repay a greater proportion of her loan before defaulting. What’s more, even if Joseph and Florence have the same probability of default, Joseph may be more likely to default during a period when many others are defaulting, while Florence’s risk may be less correlated with portfolio performance. In both of these situations, Florence is a “better” risk, even though she has the same probability of defaulting as Joseph. Put differently, Joseph and Florence can have the same credit score yet be significantly different customers from a risk management perspective.
-
+From the perspective of a lender, the raw probability of Joseph’s default is just the beginning of credit risk modelling. Joseph may have the same risk of default as his neighbour, Florence, even if Florence can be expected to repay a greater proportion of her loan before defaulting. What’s more, even if Joseph and Florence have the same probability of default, Joseph may be more likely to default during a period when many others are defaulting, while Florence’s risk may be less correlated with portfolio performance. In both of these situations, Florence is a “better” risk, even though she has the same probability of defaulting as Joseph. Put differently, Joseph and Florence can have the same credit score while being significantly different customers from a risk management perspective.
 
 
 
 # **INDUCTION PROBLEMS**
 
-The central issue with modelling portfolio risk is that the range of plausible scenarios for a portfolio of receivables are much wider than what has been observed in the data. This means that estimates of portfolio risk that come solely from observed history will always be a rosy view of the true risk—the so-called inductive fallacy popularized by Popper in the 20th century, and discussed more recently by Nassim Nicholas Taleb (whose excellent book Fooled By Randomness is required reading for all investors).
+The central issue with modelling portfolio risk is that the range of plausible scenarios for a portfolio of receivables are much wider than what has been observed in the data. This means that estimates of portfolio risk that come solely from observed history will always be a rosy view of the true risk—the so-called inductive fallacy popularized by Karl Popper in the 20th century, and discussed more recently by Nassim Nicholas Taleb (whose excellent book Fooled By Randomness is required reading for all investors).
 
 <a href="{{ site.baseurl }}/img/risk/random.jpg">
     <center><img src="{{ site.baseurl }}/img/risk/random.jpg"></center>
@@ -56,26 +54,28 @@ The central issue with modelling portfolio risk is that the range of plausible s
 <span class="caption text-muted">Taleb's book on the inductive fallacy.</span>
 
 
-We employ two practices that can help with this problem. First, our risk engine explicitly allows for portfolio-level repayments with “fat-tails”—large negative outcomes without precedent. Second, while the portfolios that we monitor have not experienced a “black swan” event, there are many other asset classes that have. We cannot predict black swans, but through deep research of various historical episodes, we can get an idea of what they look like, and incorporate the magnitudes of such possibilities in our models.
+We employ two practices that can help with this problem. First, our portfolio Risk Engine explicitly allows for portfolio-level repayments with “fat-tails”—large negative outcomes without precedent. Second, while the portfolios that we monitor have not experienced a “black swan” event, there are many other asset classes that have. We cannot predict black swans, but through deep research of various historical episodes, we can get an idea of what they look like, and incorporate the magnitudes of such possibilities in our models.
 
 
 # **HOW DO WE DO THIS?**
 
 
-Unlike many banks and insurance companies, Lendable has no problems with outdated legacy software or large corporate bureaucracy, allowing us to develop a Portfolio Risk Engine that makes use of very recent advances in computation, statistics and machine learning.
-
-
-- The Portfolio Risk Engine is built on observations of each customer’s account over time, rather than the two industry norms of aggregating all accounts together or using a “static” model that does not model changes over time. While both of these more common techniques are easier to handle than Lendable’s approach, they throw out useful information, leading to inferior predictions and over-optimistic confidence bands.
-- The risk engine is made up of several models, each of which is designed to focus on a particular type of risk. These models are then combined in a way that gives more weight to the models that do a better job at predicting repayments.
-- The risk models are estimated using Bayesian techniques, which provide several advantages over more traditional (“frequentist”) approaches
+Unlike many banks and insurance companies, Lendable has no problems with outdated legacy software or large corporate bureaucracy, allowing us to develop a portfolio Risk Engine that makes use of very recent advances in computation, statistics and machine learning.
+ 
+- The portfolio Risk Engine is built on observations of each customer’s account over time, rather than the two industry norms of aggregating all accounts together or using a “static” model that does not model changes over time. While both of these more common techniques are easier to handle than Lendable’s approach, they throw out useful information, leading to inferior predictions and over-optimistic confidence bands.
+- The risk engine is made up of several models, each of which is designed to focus on a particular type of risk.
+- The risk models are estimated using Bayesian techniques, which provide several advantages over more traditional (“frequentist”) or approaches
     - When the risk engine generates predictions, these predictions incorporate uncertainty not only about the average quality of how well the model describes the data (as is standard), but also how well the model parameters are estimated.
     - Bayesian modelling allows outside information to be incorporated, not just information from the data. We can incorporate knowledge from one originator with ample history into the modelling for another. This is how we build in the possibility of “fat tails” in repayments behavior even if such scenarios have not been observed in history. 
     - Bayesian modelling provides a coherent framework for combining predictions of various models into a single prediction.
 
-# **CONCLUSION**  
 
-The Portfolio Risk Engine was not the first framework we used for predicting repayments. Rather, its development is the consequence of trial-and-error with many methodologies and modelling philosophies.
+The portfolio Risk Engine was not the first framework we used for predicting repayments. Rather, its development is the consequence of trial-and-error with many methodologies and modelling philosophies.
  
 A common question posed to us is why we do not use popular machine-learning algorithms like Neural Networks, Support Vector Machines and Radom Forests for predicting repayments. This is a good question, as these algorithms have proven successful at a range of predictive tasks, from marketing to handwriting recognition. It was for this reason that we did use these methods early on.
  
-The reason we discarded these techniques in our modelling is because without large modifications, these methods treat each observation as though it is independent of other observations. Yet it is precisely the correlation between individuals’ repayments—the lack of independence—that presents the largest risk to investors. The consequence is that predictions from machine-learning style models tend to understate the amount of risk in the portfolio. In contrast, Lendable’s Portfolio Risk Engine is built from the ground up to measure and model the correlations between individuals’ repayments, allowing Lendable to get a better gage of downside risks and the most appropriate advance rate for Joseph’s receivables.
+While we still make use of these techniques for some applications (especially working out which variables are the most important for predicting repayments), we do not use them for predicting repayments. The reason is that without very large modifications, during estimation these methods treat each observation as though it is independent of other observations. Yet it is precisely the correlation between individuals’ repayments—the lack of independence—that presents the largest risk to investors. The consequence is that predictions from machine-learning style models tend to understate the amount of risk in the portfolio. In contrast, Lendable’s portfolio Risk Engine is built from the ground up to measure and model the correlations between individuals’ repayments, allowing Lendable to get a better gage of downside risks and the most appropriate advance rate for Joseph’s receivables.
+
+# **CONCLUSION**  
+
+It is not riskless to lend to Joseph. Yet a mature analysis of ACME Solar’s repayments data can reveal many (but not all) risks that potential investors ought to expect. Deep research into episodes of crisis can help illuminate the sorts of risk that the data do not. These two tasks are combined in Lendable’s Risk Engine. This sophisticated approach to approaching the risks of Joseph repaying his debt help Lendable set terms on its securitization, boosting confidence for lender and borrower alike. 
