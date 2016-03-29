@@ -2,7 +2,7 @@
 layout:     post
 title:      "The value of partnerships"
 subtitle:   "Lendable isn't just a business - it's the embodiment of an idea, and a team of people who believe in it"
-date:       2016-01-08 12:00:00
+date:       2016-03-20 12:00:00
 author:     "Daniel Goldfarb, CEO"
 header-img: "img/partnerships/tug_of_war_original.png"
 ---
@@ -13,7 +13,7 @@ Behind every great company are great partners. No, this is not a quote or a trui
 
 # **WHAT MAKES FOR A GOOD PARTNER?**
 
-We have been lucky along the way to have people that believed in us and our vision. Approaching the end of 2015, we have been thinking a lot about what makes a good partner. Based on our experience there are some key ingredients:
+We have been lucky along the way to have people that believed in us and our vision. As we start 2016, we have been thinking a lot about what makes a good partner. Based on our experience there are some key ingredients:
 
 - *Ruthless honesty.* The partners that provide the most valuable are those that ask uncomfortable questions and point us towards uncomfortable truths. They don’t placate or sugar coat and they expect the same treatment.  
 - *Clear delineation of value.* Good partners are clear about what they can and can’t do. Not everyone needs to be a value added investor, but everyone needs to be honest with themselves.
