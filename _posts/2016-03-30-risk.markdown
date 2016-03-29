@@ -2,7 +2,7 @@
 layout:     post
 title:      "This risk isn't like the others"
 subtitle:   "Lendable's multi-dimensional framework accounts for the different kinds of risk, and how they affect portfolio volatility"
-date:       2016-03-30 12:00:00
+date:       2016-03-29 12:00:00
 author:     "Jim Savage, data scientist"
 header-img: "img/risk/chickens_original.png"
 ---
