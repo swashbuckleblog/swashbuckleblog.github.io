@@ -90,7 +90,7 @@ hr.small {
 .navbar-custom .nav li a {
   font-size: 14.4px;
   color: rgb(58,58,58) !important;
-  font-family: 'Margot';
+  font-family: proxima-nova, sans-serif;
 }
 .navbar-custom .nav li a.active {
   font-weight: 700;
