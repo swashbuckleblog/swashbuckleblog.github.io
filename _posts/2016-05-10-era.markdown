@@ -7,7 +7,7 @@ author:     "Joe Brew, data scientist"
 header-img: "img/era/mechanics.jpg"
 ---
 
-Investing is about using information available now to predict the future. It’s hard, always has been, and always will be. But we are entering into an era of data, and the availability of novel sources of information will radically transform investing… for those who know how to use that information.
+Investing is about using information available now to predict the future. It’s hard, always has been, and always will be. But we are entering into an era of data, and the availability of novel sources of information will radically transform and improve finance for those who know how to use that information.
 
 # **ERA OF DATA SCARCITY**
 
