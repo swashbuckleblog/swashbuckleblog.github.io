@@ -7,12 +7,11 @@ author:     "Joe Brew, data scientist"
 header-img: "img/era/mechanics.jpg"
 ---
 
-If “the essence of finance is time travel” (Matt Levine, Fed Day, Junk Bonds and Unicorns) then the essence of 
-investing is using information available today to predict the future. It’s hard, always has been, and always will be. But we are entering into an era of data, and the availability of novel sources of information and massive computing power will radically transform investing… for those who know how to use that information.
+If “the essence of finance is time travel” (Matt Levine, Fed Day, Junk Bonds and Unicorns) then the essence of investing is using information available today to form reasonable expectations about the future. In developing market it is hard, always has been, and always will be. But thanks to cheap mobile phones, productized CRMs and data services companies, we have never had more info to work with. We are entering an era of data abundance, and the availability of novel sources of information and massive computing power will radically transform investing… for those who know how to use that information.
 
 # **ERA OF DATA SCARCITY**
 
-In the era of data scarcity (ie, beginning of time until about 1995), financial institutions operated in the dark, treating different customers, product classes and geographies identically, or relying on informal and inconsistent anecdotal systems (charitably called “rules of thumb”) to inform their lending decisions. Data scarcity led to uncertainty, inefficiency and loss, which translated into high interest rates, particularly for those in low-income countries.  Huge geographical differences in credit costs, in part  based on a lack of information or perceived lack of information, persist today. 
+In the era of data scarcity (ie, beginning of time until about 1995), financial institutions operated in the dark, treating different customers, product classes and geographies identically, or relying on informal and inconsistent anecdotal systems (charitably called “rules of thumb”) to inform their lending decisions. Many of these rules of thumb live on today, in contemporary credit scoring. Data scarcity led to information asymmetries between lenders and borrowers, pushing up the cost of capital, particularly for those in low-income countries. Huge geographical differences in credit costs, in part based on a lack of information or perceived lack of information, persist today.
 
 <a href="{{ site.baseurl }}/img/era/premium_on_lending.png" alt="">
     <center><img src="{{ site.baseurl }}/img/era/premium_on_lending.png" alt=""></center>
@@ -21,11 +20,10 @@ In the era of data scarcity (ie, beginning of time until about 1995), financial 
 
 # **ERA OF DATA ABUNDANCE**
 
-From temperature, precipitation and vegetation density to acts of violence and agricultural prices, never before have so many real-time, relevant, and quality data been available for emerging markets. But for every good and useful dataset out there, there is a plethora of misleading, doctored, out-of-date, biased, dirty and inaccurate data. 
-
+From temperature, precipitation and vegetation density to acts of violence and agricultural prices, never before have so many real-time, relevant, and quality data been available for emerging markets. But for every good and useful dataset out there, there is a plethora of misleading, doctored, out-of-date, biased, dirty and inaccurate data.
 The large scale financing of non-deposit taking credit institutions is held up by two problems: (1) originators are not equipped to deal technically with the massive quantity of data available to them and (2) investors face difficulty identifying and trusting in the quality of point-of-sale data, third party payment gateways, and external data generally.
 
-Because of these problems, frontier finance firms largely still operate as if in the era of data scarcity, avoiding complex analyses, limiting themselves to rules of thumb, and hoping that investors will simply "trust" in their on-the-ground experience and accuracy of their data. By not fully taking advantage of the era of data, they incorrectly exclude potentially good customers, and keep from market potentially profitable products. Just as importantly, investors accustomed to making decisions based on hard data avoid these institutions and those that use soft data improperly price risk and structure transactions. 
+Because of these problems, frontier finance firms largely still operate as if in the era of data scarcity, avoiding complex analyses, limiting themselves to rules of thumb, and hoping that investors will simply “trust” in their on-the-ground experience and accuracy of their data. By not fully taking advantage of the era of data, they incorrectly exclude potentially good customers (and lend too many bad ones), while keeping from market potentially profitable products. Just as importantly, investors accustomed to making decisions based on hard data avoid these institutions and those that use soft data improperly price risk and structure transactions.
 
 Frontier financial institutions, lacking access to large-scale commercial capital, resign themselves to non-scalable structures (DFIs) and charity (Kiva). An over-reliance on non-commercial and charitable models for finance cripples economies, and has created the current situation in which only residents of rich countries have access to financial products (below):
 
@@ -41,13 +39,20 @@ Frontier financial institutions, lacking access to large-scale commercial capita
 Though we are living in the era of data, standardized consumer credit scoring has not yet emerged in areas where microfinance is most established (see <a href="{{ site.baseurl }}/2016/03/29/risk/"> this post</a>). Accordingly, financial institutions operating in the developing world, and investors interested in those institutions, must rely on alternative metrics of creditworthiness.
 
 
-Lendable takes the originator-investor relationship into the era of data abundance by facilitating five key components of an investment transaction: (1) it taps into originators' data in a way that they cannot afford to, using specialized tools and techniques; (2) it carries out comprehensive portfolio diligence for investors by assuring data quality and accuracy, from point-of-sale data collection to originator financials and fraud; (3) it uses advanced machine learning techniques to exploit data fully, forecasting future payments and defaults, pricing receivables appropriately, and crafting an investment product that fits the interest of investors, originators and end customers; (4) it builds extensible tools and algorithms, making our analyses scalable and facilitating the speed of transactions; and (5) it provides the marketplace in which investor-originator transactions can take place.
+Though we are living in the era of data, standardized consumer credit scoring has not yet emerged in areas where microfinance is most established (see this post). Accordingly, financial institutions operating in the developing world, and investors interested in those institutions, must rely on alternative metrics of creditworthiness.
+Lendable takes the originator-investor relationship into the era of data abundance in five key ways: 
+
+1. Pulling in borrower and market data, making benchmarking and interpretation of risk drivers possible. 
+2. Certifying the quality and accuracy of data, from point-of-sale data collection to data management.
+3. Using advanced machine learning techniques to exploit data fully, forecasting future payments and defaults, pricing receivables appropriately. 
+4. Building extensible tools and algorithms, making our analysis instantaneous and capable of incorporating large amounts of external data.
+5. Providing real time tracking of standard and comparable metrics.
+
 
 # **IT WORKS**
 
-In the era of data scarcity it was believed that frontier finance was a fool's errand, largely akin to gambling. While the math whizzes and finance gurus built ever-more-complex algorithms and strategies for investing in developed world securities, financial institutions in the developing world were left by the wayside. It was believed that the general lack of reliable data in volatile and poor countries made it so that forecasting performance and predicting cash flows there simply was not possible.
-
-But it is. Lendable can predict what future cash flows will look like, as well as identify pockets of correlated risk. For example the below chart shows the Risk Engine's actual performance on predicting cash flows from real portfolios. 
+In the era of data scarcity it was believed that frontier finance was a fool’s errand, largely akin to gambling. While the math whizzes and finance gurus built ever-more-complex algorithms and strategies for investing in developed world securities, financial institutions in the developing world were left by the wayside. It was believed that the general lack of reliable data in volatile and poor countries made it so that forecasting performance and predicting cash flows there simply was not possible.
+But it is. Lendable has demonstrated the ability to predict what future cash flows will look like, as well as identify pockets of correlated risk. For example, the chart below shows predictions that we made for repayments of a fixed number of receivables in one of our partner’s loan portfolio. The orange band is our confidence interval, the orange line our forecast. The black line is what ended up happening. (These results are “back-tested”, meaning that the black line was not known at the time the forecasts were made). The cumulative forecast error over the 8 month prediction window was only 0.63%.
 
 
 <a href="{{ site.baseurl }}/img/era/jims_chart.png">
@@ -56,4 +61,4 @@ But it is. Lendable can predict what future cash flows will look like, as well a
 <span class="caption text-muted">Lendable Risk Engine’s prior predictions of portfolios cash flows from a series of originators during a volatile election season in East Africa (dark orange line and orange shaded area, showing point predictions and confidence intervals, respectively) along with the actual repayments (black line)</span>
 
 
-A profitable, scalable business model of lending to the unbanked is possible. Lendable's Risk Engine was built to help originators and investors correctly quantify risk and identify opportunity. Understanding the forces that drive repayments and defaults enables originators to improve their operations and helps investors to build a portfolio with an appropriate and realistically quantified amount of risk. Most importantly, understanding cash flows facilitates the match-making between on-the-ground frontier finance originators and commercial capital. In other words, data is the engine that Lendable will use to drive frontier finance to massive scale.
+A profitable, scalable business model of lending to the unbanked is possible. Lendable’s Risk Engine was built to help originators and investors correctly quantify risk and identify opportunity. Understanding the forces that drive repayments and defaults enables originators to improve their operations and helps investors to build a portfolio with an appropriate and realistically quantified amount of risk. Most importantly, understanding cash flows facilitates the match-making between on-the-ground frontier finance originators and commercial capital. In other words, data is the engine that Lendable will use to drive frontier finance to massive scale.
