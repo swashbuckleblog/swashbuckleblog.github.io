@@ -58,7 +58,7 @@ But it is. Lendable has demonstrated the ability to predict what future cash flo
 <a href="{{ site.baseurl }}/img/era/jims_chart.png">
     <center><img src="{{ site.baseurl }}/img/era/jims_chart.png" alt=""></center>
 </a>
-<span class="caption text-muted">Lendable Risk Engine’s prior predictions of portfolios cash flows from a series of originators during a volatile election season in East Africa (dark orange line and orange shaded area, showing point predictions and confidence intervals, respectively) along with the actual repayments (black line)</span>
+<span class="caption text-muted">Lendable Risk Engine’s prior predictions of portfolios cash flows from a series of originators during a volatile election season in East Africa (dark orange line and orange shaded area, showing point predictions and confidence intervals, respectively) along with the actual repayments (black line).</span>
 
 
 A profitable, scalable business model of lending to the unbanked is possible. Lendable’s Risk Engine was built to help originators and investors correctly quantify risk and identify opportunity. Understanding the forces that drive repayments and defaults enables originators to improve their operations and helps investors to build a portfolio with an appropriate and realistically quantified amount of risk. Most importantly, understanding cash flows facilitates the match-making between on-the-ground frontier finance originators and commercial capital. In other words, data is the engine that Lendable will use to drive frontier finance to massive scale. 
