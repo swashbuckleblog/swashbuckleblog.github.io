@@ -2,7 +2,7 @@
 layout:     post
 title:      "The era of data"
 subtitle:   "We are more saturated with information than ever before. Lendable knows what to do with it."
-date:       2016-05-17 12:00:00
+date:       2016-05-10 12:00:00
 author:     "Joe Brew, data scientist"
 header-img: "img/era/mechanics.jpg"
 ---
