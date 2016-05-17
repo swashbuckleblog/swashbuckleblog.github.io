@@ -7,7 +7,9 @@ author:     "Joe Brew, data scientist"
 header-img: "img/era/mechanics.jpg"
 ---
 
-If “the essence of finance is time travel” (Matt Levine, Fed Day, Junk Bonds and Unicorns) then the essence of investing is using information available today to form reasonable expectations about the future. In developing market it is hard, always has been, and always will be. But thanks to cheap mobile phones, productized CRMs and data services companies, we have never had more info to work with. We are entering an era of data abundance, and the availability of novel sources of information and massive computing power will radically transform investing… for those who know how to use that information.
+If “the essence of finance is time travel” (<a href = "https://www.bloomberg.com/view/articles/2015-12-16/fed-day-junk-bonds-and-unicorns">Matt Levine, Fed Day, Junk Bonds and Unicorns</a>) then the essence of investing is using information available today to form reasonable expectations about the future. In the developing world that is hard, always has been, and always will be. Thanks to cheap mobile phones, productized CRMs and data services companies, we have never had more info to work with. We are entering an era of data abundance, and the availability of novel sources of information and massive computing power will radically transform investing… for those who know how to use that information.
+
+
 
 # **ERA OF DATA SCARCITY**
 
