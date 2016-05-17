@@ -2,7 +2,7 @@
 layout:     post
 title:      "The era of data"
 subtitle:   "We are more saturated with information than ever before. Lendable knows what to do with it."
-date:       2016-05-10 12:00:00
+date:       2016-05-17 12:00:00
 author:     "Joe Brew, data scientist"
 header-img: "img/era/mechanics.jpg"
 ---
@@ -23,7 +23,7 @@ In the era of data scarcity (ie, beginning of time until about 1995), financial 
 From temperature, precipitation and vegetation density to acts of violence and agricultural prices, never before have so many real-time, relevant, and quality data been available for emerging markets. But for every good and useful dataset out there, there is a plethora of misleading, doctored, out-of-date, biased, dirty and inaccurate data.
 The large scale financing of non-deposit taking credit institutions is held up by two problems: (1) originators are not equipped to deal technically with the massive quantity of data available to them and (2) investors face difficulty identifying and trusting in the quality of point-of-sale data, third party payment gateways, and external data generally.
 
-Because of these problems, frontier finance firms largely still operate as if in the era of data scarcity, avoiding complex analyses, limiting themselves to rules of thumb, and hoping that investors will simply “trust” in their on-the-ground experience and accuracy of their data. By not fully taking advantage of the era of data, they incorrectly exclude potentially good customers (and lend too many bad ones), while keeping from market potentially profitable products. Just as importantly, investors accustomed to making decisions based on hard data avoid these institutions and those that use soft data improperly price risk and structure transactions.
+Because of these problems, frontier finance firms largely still operate as if in the era of data scarcity, avoiding complex analyses, limiting themselves to rules of thumb, and hoping that investors will simply “trust” in their on-the-ground experience and accuracy of their data. By not fully taking advantage of the era of data, they incorrectly exclude potentially good customers (and lend to many bad ones), while keeping from market potentially profitable products. Just as importantly, investors accustomed to making decisions based on hard data avoid these institutions and those that use soft data improperly price risk and structure transactions.
 
 Frontier financial institutions, lacking access to large-scale commercial capital, resign themselves to non-scalable structures (DFIs) and charity (Kiva). An over-reliance on non-commercial and charitable models for finance cripples economies, and has created the current situation in which only residents of rich countries have access to financial products (below):
 
@@ -39,7 +39,7 @@ Frontier financial institutions, lacking access to large-scale commercial capita
 Though we are living in the era of data, standardized consumer credit scoring has not yet emerged in areas where microfinance is most established (see <a href="{{ site.baseurl }}/2016/03/29/risk/"> this post</a>). Accordingly, financial institutions operating in the developing world, and investors interested in those institutions, must rely on alternative metrics of creditworthiness.
 
 
-Though we are living in the era of data, standardized consumer credit scoring has not yet emerged in areas where microfinance is most established (see this post). Accordingly, financial institutions operating in the developing world, and investors interested in those institutions, must rely on alternative metrics of creditworthiness.
+Though we are living in the era of data, standardized consumer credit scoring has not yet emerged in areas where microfinance is most established (see <a href="{{ site.baseurl }}/2016/03/29/risk/"> this post</a>). Accordingly, financial institutions operating in the developing world, and investors interested in those institutions, must rely on alternative metrics of creditworthiness.
 Lendable takes the originator-investor relationship into the era of data abundance in five key ways: 
 
 1. Pulling in borrower and market data, making benchmarking and interpretation of risk drivers possible. 
@@ -52,7 +52,9 @@ Lendable takes the originator-investor relationship into the era of data abundan
 # **IT WORKS**
 
 In the era of data scarcity it was believed that frontier finance was a fool’s errand, largely akin to gambling. While the math whizzes and finance gurus built ever-more-complex algorithms and strategies for investing in developed world securities, financial institutions in the developing world were left by the wayside. It was believed that the general lack of reliable data in volatile and poor countries made it so that forecasting performance and predicting cash flows there simply was not possible.
-But it is. Lendable has demonstrated the ability to predict what future cash flows will look like, as well as identify pockets of correlated risk. For example, the chart below shows predictions that we made for repayments of a fixed number of receivables in one of our partner’s loan portfolio. The orange band is our confidence interval, the orange line our forecast. The black line is what ended up happening. (These results are “back-tested”, meaning that the black line was not known at the time the forecasts were made). The cumulative forecast error over the 8 month prediction window was only 0.63%.
+
+
+But it is. Lendable has demonstrated the ability to predict what future cash flows will look like, as well as identify pockets of correlated risk. For example, the chart below shows predictions that we made for repayments of a fixed number of receivables in an actual portfolio. The orange band is our confidence interval, the orange line our forecast. The black line is what ended up happening. (These results are “back-tested”, meaning that the black line was not known at the time the forecasts were made). The cumulative forecast error over the 8 month prediction window was only 0.63%.
 
 
 <a href="{{ site.baseurl }}/img/era/jims_chart.png">
