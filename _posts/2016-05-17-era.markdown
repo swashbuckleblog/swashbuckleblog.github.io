@@ -38,11 +38,7 @@ Frontier financial institutions, lacking access to large-scale commercial capita
 
 # **LENDABLE'S ROLE IN THE ERA OF DATA**
 
-Though we are living in the era of data, standardized consumer credit scoring has not yet emerged in areas where microfinance is most established (see <a href="{{ site.baseurl }}/2016/03/29/risk/"> this post</a>). Accordingly, financial institutions operating in the developing world, and investors interested in those institutions, must rely on alternative metrics of creditworthiness.
-
-
-Though we are living in the era of data, standardized consumer credit scoring has not yet emerged in areas where microfinance is most established (see <a href="{{ site.baseurl }}/2016/03/29/risk/"> this post</a>). Accordingly, financial institutions operating in the developing world, and investors interested in those institutions, must rely on alternative metrics of creditworthiness.
-Lendable takes the originator-investor relationship into the era of data abundance in five key ways: 
+Though we are living in the era of data, standardized consumer credit scoring has not yet emerged in areas where microfinance is most established (see <a href="{{ site.baseurl }}/2016/03/29/risk/"> this post</a>). Accordingly, financial institutions operating in the developing world, and investors interested in those institutions, must rely on alternative metrics of creditworthiness. Lendable takes the originator-investor relationship into the era of data abundance in five key ways: 
 
 1. Pulling in borrower and market data, making benchmarking and interpretation of risk drivers possible. 
 2. Certifying the quality and accuracy of data, from point-of-sale data collection to data management.
