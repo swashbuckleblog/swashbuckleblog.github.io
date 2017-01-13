@@ -14,13 +14,13 @@ Lendable Labs is an initiative to build apps and services on top of our industry
 
 Ok, we are being a little selfish as well. Not only will Lendable labs enable us to offer investors better investment opportunities, but it will make us a more appealing option for our originators. All in all, it seemed like a no brainer.
 
-## Our first product: Customer Quality Score (or CQS)
+## Lendable Labs’ first product: Customer Quality Score (or CQS)
 
-Most originators don’t have enough credit officers to follow up on every late customer. Prioritizing is hard and there aren’t tools to help. Lendable Labs’ first app is a tool to help prioritize collection activities by understanding which customers are most likely to fall behind. With this tool, originators will be better able to manage the ever-present dilemma: when customers are behind on their loans, who do you contact first? 
+Most originators don’t have enough credit officers to follow up on every late customer. Knowing where to place limited credit  resources is hard and there aren’t tools to help. Lendable Labs’ first app is a tool to help prioritize collection activities by understanding which customers are most likely to fall behind. With this tool, originators will be better able to manage the ever-present dilemma: when customers are behind on their loans, who do you contact first? 
 
-While most companies have some way to prioritize collections, their approach is typically not sophisticated: ranking customers based on how much they owe and how late they are on their payments. Lendable’s tool creates a probabilistic score to add accuracy and provide simplicity through. For originators, this can mean a more efficient and automated workflow in their collections offices, adding tens of hours back into the week for their staff. 
+While most companies have some way to prioritize collections, their approach is typically not sophisticated: ranking customers based on how much they owe and how late they are on their payments. Lendable’s tool creates a probabilistic score to add accuracy and provide simplicity. This score predicts the likelihood that a customer will pay, when, and how much. For originators, this can mean a more efficient and automated workflow in their collections offices, adding tens of hours back into the week for their staff. 
 
-We are in the process of piloting our CQS tool with two originators, one in East Africa and one in West Africa, capturing insights and evidence on whether customers have a higher rate of repayment using this tool. We will also be publishing white papers on the results of these pilots and designing the final version of the tool based on these learnings. 
+We are in the process of piloting our CQS tool with two originators, one in East Africa and one in West Africa, capturing insights and evidence on the increase in  rate of repayment using this tool. We will also be publishing white papers on the results of these pilots and designing the final version of the tool based on these learnings. 
 
 Our goal with Lendable Labs is to offer valuable analytical resources to our partners and alternative lenders around the world. If we can help lenders make credit and collections decisions more effectively, then it is a success.  
 
