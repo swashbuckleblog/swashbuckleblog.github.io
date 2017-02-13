@@ -2,7 +2,7 @@
 layout:     post
 title:      "Helping Our Customers Better Understand Credit"
 subtitle:   "We’re launching Lendable Labs to help originators get better at what they do."
-date:       2017-01-10 12:00:00
+date:       2017-01-17 12:00:00
 author:     "Daniel Goldfarb, CEO"
 header-img: "img/lendable_labs/call_center.png"
 ---
@@ -26,6 +26,6 @@ Our goal with Lendable Labs is to offer valuable analytical resources to our par
 
 Interested in learning more about Lendable Labs or partnering with us? Get in touch at <a href="mailto:info@lendable.io?Subject=Lendable%20Labs" target="_top">info@lendable.io</a>. 
 
-_A special thanks to o The David and Lucile Packard Foundation for supporting the creation of Lendable Labs._
+_A special thanks to The David and Lucile Packard Foundation for supporting the creation of Lendable Labs._
 
 
