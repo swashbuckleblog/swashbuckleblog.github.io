@@ -1,6 +1,6 @@
 ---
 layout:     post
-title:      "Lendable completes first-of-its-kind motorcycle securitization in Uganda"
+title:      "First-of-its-kind motorcycle securitization in Uganda"
 subtitle:   "Lendable’s innovative data-driven financing with Tugende is a world-first for fintech and aims to finance billions for solar, transportation, and agricultural assets"
 date:       2017-02-13 01:00:00
 author:     "Daniel Goldfarb, CEO"
