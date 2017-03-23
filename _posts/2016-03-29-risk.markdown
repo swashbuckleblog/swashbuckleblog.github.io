@@ -19,7 +19,7 @@ It’s not an overstatement to say that Joseph’s repayments (how much he will 
 
 # **LENDABLE'S REPAYMENT RISK FRAMEWORK**
 
-The risks of Joseph defaulting or, more commonly, paying his debt more slowly than anticipated, can be thought of as coming from two broad sources. We call these “portfolio risk”, those risk factors that are external to Joseph, and “credit risk”, the risk of lending to Joseph that are distinctive to him. It’s helpful to separate these risks; without understanding the magnitude of each, we have no understand about what is driving risk in the portfolio and therefore cannot mitigate it.
+The risks of Joseph defaulting or, more commonly, paying his debt more slowly than anticipated, can be thought of as coming from two broad sources. We call these “portfolio risk”, those risk factors that are external to Joseph, and “credit risk”, the risk of lending to Joseph that are distinctive to him. It’s helpful to separate these risks; without understanding the magnitude of each, we have no understanding about what is driving risk in the portfolio and therefore cannot mitigate it.
  
 Portfolio risk is the primary driver of whether investors purchasing many receivables get their money back. It is often described in terms of statistics that proxy for portfolio risk, like portfolio at risk, the default rate, and loss given default. Another more direct way of describing the portfolio risk is to look at the variation in monthly cashflows relative to the ideal case of all borrowers making their due payments. This measure is affected by many aspects of portfolio risk. Defaults, late payments, early repayments, geo-political events, crop failures, and the lender’s credit policies may all result in variation in monthly portfolio-level repayments.
  
