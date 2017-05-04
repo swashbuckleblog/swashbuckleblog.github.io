@@ -2,7 +2,7 @@
 layout:     post
 title:      "First-of-its-kind motorcycle securitization in Uganda"
 subtitle:   "Lendable’s innovative data-driven financing with Tugende is a world-first for fintech and aims to finance billions for solar, transportation, and agricultural assets"
-date:       2017-02-13 01:00:00
+date:       2017-05-04 01:00:00
 author:     "Daniel Goldfarb, CEO"
 header-img: "img/motorcycle-securitization/Tugende.jpg"
 ---
@@ -16,7 +16,7 @@ For this offering, Lendable partnered with Tugende, an asset financing company, 
 
 Three global institutional investors purchased the credit contracts from Tugende for hundreds of Ugandan boda boda entrepreneurs. This transaction has enabled Tugende to give more motorcycles to self-employed entrepreneurs and expand their reach across Uganda. 
 
-“There are at least one million full time motorcycle taxi drivers across East Africa, and since day one, we’ve struggled to keep up with our large waiting list in Uganda in terms of constantly raising new funds to buy more motorcycles,” said Michael Wilkerson, CEO, of Tugende. “The beautiful thing about partnering with Lendable is that in addition to matching new financing to verified customer demand, Lendable’s experience and technology have added new insights into how we manage our portfolio and help thousands of customers own their income generating asset as quickly as possible.” 
+“There are at least one million full time motorcycle taxi drivers across East Africa, and since day one, we’ve struggled to keep up with our large waiting list in Uganda in terms of constantly raising new funds to buy more motorcycles,” said Michael Wilkerson, CEO, of Tugende. “Partnering with Lendable helped us grow faster by matching new financing to meet our demand with the quantitatively provable security of our existing portfolio performance. In addition Lendable’s experience and technology have added new insights into how we manage our portfolio and help thousands of customers own their income generating asset as quickly as possible.” 
 
 This transaction relied on Lendable’s robust quantitative models to assess deal risk and determine pricing through its proprietary Risk Engine. Lendable developed  the financial structure of this transaction, allowing both investors and Tugende to avoid the expensive structuring costs that a similar deal would normally incur. As part of this process, Lendable also provided analytics to Tugende, helping improve their receivable quality. As a result, Lendable improved the advance rate to Tugende—a trend both sides hope will continue.  Lendable’s approach makes receivable financing transactions more easy, fast and affordable for both investors and originators. 
 
