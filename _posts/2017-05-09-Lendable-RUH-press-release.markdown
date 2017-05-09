@@ -36,7 +36,7 @@ Please contact [Donald Ouma](mailto:douma@levanterafrica.com), +254 722 481 975.
 
 
 ## About Lendable   
-[lendable.io](www.lendable.io)  
+[lendablemarketplace.com](http://lendablemarketplace.com)  
 
 Lendable is the first debt platform designed specifically for African alternative lenders – non-banking, asset backed finance providers operating in microfinance, and a range of Pay-as-you-go (PayGo) services including energy.   
 
@@ -50,10 +50,10 @@ Lendable is able to reduce the time, resources and frictional costs incurred in 
 Raj Ushanga House which has been in operation since 1980, has become one of the largest importers and distributors of decorative glass beads in Kenya. In 2013, they became a distributor of solar products and in the following year, partnered with Azuri Technologies to begin importing, distributing and financing Azuri solar home systems in Kenya. RUH are also expanding their product offering from smaller solar-home-systems to include a PayGo TV with bundled satellite content subscription, also from Azuri.
 
 ## About Azuri Technologies   
-[azuri-technologies.com](www.azuri-technologies.com) 
+[azuri-technologies.com](http://azuri-technologies.com) 
 
 Azuri Technologies is a leading commercial provider of PayGo solar home systems to rural off- grid communities. With the widest reach of any provider in sub Saharan Africa, Azuri is leveraging solar and mobile technology to allow users in 12 different countries to access renewable, distributed power on a pay-as-you-go basis. Azuri’s HQ is located in Cambridge, United Kingdom, with staff based in Kenya, Uganda, Ghana, Ethiopia, Nigeria and Tanzania. 
 
 <hr>
 
-<small><em>Header photo: From Left to Right, Raj Haria: CEO, Raj Ushanga House, Daniel Goldfarb: CEO & co-founder, Lendable and Sharon Arungu-Olende: Head of East Arica, Lendable; present to Alice Nudko (center) an Azuri Solar Home System.</em></small>
+<small><em>Header photo: From Left to Right, Raju Haria: CEO, Raj Ushanga House, Daniel Goldfarb: CEO & co-founder, Lendable and Sharon Arungu-Olende: Head of East Arica, Lendable; present to Alice Nudko (center) an Azuri Solar Home System.</em></small>
