@@ -1,0 +1,1397 @@
+h1 {
+    font-size: 38px;
+    letter-spacing: 0.25px;
+    line-height: 42px;
+    font-weight: 700;
+}
+h1.hero-heading {
+    font-size: 51px;
+    letter-spacing: 0.25px;
+    line-height: 59px;
+    font-weight: 700;
+}
+
+h2 {
+    font-size: 28px;
+    line-height: 32px;
+    letter-spacing: 0.19px;
+}
+h3 {
+    font-size: 24px;
+    line-height: 30px;
+    letter-spacing: 0.24px;
+}
+h4 {
+    font-size: 18px;
+    letter-spacing: 0.29px;
+    line-height: 27px;
+}
+h5{
+    font-size: 16px;
+    line-height: 21px;
+}
+p {
+    font-size: 18px;
+    letter-spacing: -0.5px;
+    line-height: 27px;
+}
+
+header.header--call_to_action.blog .background {
+    height: 250px;
+}
+header.header--call_to_action.about {
+    padding-bottom: 0;
+    padding-top: 0;
+}
+header.header--call_to_action.about nav.navbar .navbar-header a.navbar-brand > .logo {
+    background-image: url(../images/logos/logo-dark.svg);
+}
+header.header--call_to_action.about nav.navbar.navbar-fixed-top .navbar-header a.navbar-brand > .logo {
+    background-image: url(../images/logos/logo.svg);
+}
+header.header--call_to_action.about nav.navbar.navbar-fixed-top {
+    background-color: #fff;
+}
+header.header--call_to_action.green-bg nav.navbar.navbar-fixed-top ul.navbar-nav > li > a:active, 
+header.header--call_to_action.green-bg nav.navbar.navbar-fixed-top ul.navbar-nav > li > a:focus, 
+header.header--call_to_action.green-bg nav.navbar.navbar-fixed-top ul.navbar-nav > li.active > a, 
+header.header--call_to_action.green-bg nav.navbar.navbar-fixed-top ul.navbar-nav > li.active > a:focus, 
+header.header--call_to_action.green-bg nav.navbar.navbar-fixed-top ul.navbar-nav > li.active > a:active {
+    color: #35c187;
+}
+
+section.section--our-alternative-lenders .links .logos > .logo > div {
+    width: 160px !important;
+    height: 65px !important;
+}
+
+header.header--call_to_action .div--call_to_action .div--call_to_action--text h1 {
+    margin-top: 150px;
+    max-width: 85%;
+    margin-bottom: 24px;
+}
+header.header--call_to_action.blog .div--call_to_action .div--call_to_action--text h1 {
+    max-width: 100% !important;
+    width: 100% !important;
+}
+header.header--call_to_action .background {
+    min-height: 550px;
+}
+header.header--call_to_action.about .div--call_to_action .div--call_to_action--text h1 {
+    max-width: 100%;
+}
+header.header--call_to_action.about {
+    max-height: 750px;
+}
+
+header.header--call_to_action.blog .div--call_to_action {
+    height: 250px;
+}
+
+section.section--blog-articles--list {
+    padding-top: 55px;
+    padding-bottom: 55px;
+}
+section.section--blog-articles--list .pager {
+    margin-top: 50px;
+}
+section.section--blog-articles--list .pager .previous > a, 
+section.section--blog-articles--list .pager .previous > span {
+    float: none;
+}
+section.section--blog-articles--list .post-preview .post h2, 
+section.section--blog-articles--list .post-detail .post h2 {
+    margin-top: 12.5px;
+}
+section.section--blog-articles--list .post-detail .post .post-inline-meta {
+    margin-bottom: 15px;
+}
+section.section--blog-articles--list .post-detail .post p {
+    margin-bottom: 19px;
+}
+
+section.section--blog-articles--list .post-detail > .row > .post > .social-media-links a {
+    color: #35c187;
+}
+section.section--blog-articles--list .post-detail > .row > .post > .social-media-links a:hover,
+section.section--blog-articles--list .post-detail > .row > .post > .social-media-links a:focus,
+section.section--blog-articles--list .post-detail > .row > .post > .social-media-links a:active {
+    text-decoration: none;
+    color: #262B39;
+}
+
+section.section--blog-articles--list .post-preview .post {
+    padding-left: 0;
+    padding-right: 0;
+}
+section.section--blog-articles--list .post-preview:not(:first-child) .post {
+    border-top: 1px solid #d9dddb;
+}
+section.section--blog-articles--list .post-preview:not(:first-child) .post-tags {
+    border-top: none;
+}
+
+section.section--blog-articles--list .post-detail > .row > .social-media-links .fa,
+section.section--blog-articles--list .post-detail > .row > .post > .social-media-links .fa {
+    margin: 2.5px 15px 2.5px 0px;
+    font-size: 22.5px;
+}
+section.section--blog-articles--list nav.center {
+    width: 150px;
+    margin-left: auto;
+    margin-right: auto;
+}
+section.section--blog-articles--list .post-preview .post-meta {
+    padding-left: 0px;
+    padding-right: 10px;
+}
+section.section--blog-articles--list .post-detail > .row > .social-media-links {
+    padding-top: 142.5px;
+}
+section.section--blog-articles--list .post-detail > .row > .post > .social-media-links {
+    margin-bottom: 10px;
+}
+
+
+section.section--key-pillars {
+    padding-bottom: 50px;
+}
+
+section.section--our_governance {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+section.section--our_governance .advisory-board,
+section.section--our_governance .compliance {
+    margin-top: 50px;
+}
+section.section--our_governance {
+    padding-top: 50px;
+    padding-bottom: 100px;
+}
+section.section--our_governance h1 {
+    margin-bottom: 24px;
+}
+section.section--our_governance .compliance .compliance-partners .partner h5 {
+    margin-bottom: 10px;
+}
+section.section--our_governance .compliance .compliance-partners .partner p {
+    margin-bottom: 0px;
+}
+
+section.section--scaling {
+    padding-top: 200px;
+    padding-bottom: 65px;
+}
+section.section--scaling .scaling-testimony-deck {
+    width: 80%;
+    padding: 25px;
+    border-radius: 3px;
+}
+section.section--scaling .scaling-testimony-deck .client-logo {
+    height: 135px;
+    width: auto;
+    background-size: 100%;
+}
+
+section.section--mission {
+    background-color: #35c187;
+    padding-top: 75px;
+    padding-bottom: 75px;
+}
+
+header.header--investor-call_to_action .div--call_to_action .div--call_to_action--text p,
+header.header--call_to_action .div--call_to_action .div--call_to_action--text p,
+section.section--scaling .section--scaling--text p,
+section.section--our_investors .section--our_investors--text p, 
+section.section--lendable_platform p,
+section.section--signup_journey p,
+section.section--deal-benefits p,
+section.section--our-alternative-lenders p {
+    width: 100%;
+    font-size: 16px;
+    color: #525252;
+    letter-spacing: -0.44px;
+    line-height: 27px;
+}
+header.header--call_to_action .div--call_to_action .div--call_to_action--text p {
+    width: 75%;
+    margin-top: 15px;
+    margin-bottom: 25px;
+}
+header.header--call_to_action nav.navbar.navbar-fixed-top {
+    box-shadow: 0 0 12.5px 0 rgba(101,101,101,0.50);
+    -moz-box-shadow: 0 0 12.5px 0 rgba(101,101,101,0.50);
+    -webkit-box-shadow: 0 0 12.5px 0 rgba(101,101,101,0.50);
+    z-index: 10000;
+}
+
+section.section--how-it-works .benefits-decks .deck {
+    min-height: 185px;
+    margin-bottom: 20px;
+}
+section.section--how-it-works .benefits-decks .deck h2 {
+    font-weight: 600;
+    width: 90%;
+    padding: 0;
+    margin: 0;
+}
+section.section--deal-benefits-breakdown {
+    max-height: 600px;
+    padding-bottom: 0;
+}
+section.section--lendable-risk-system .titles {
+    width: 50% !important;
+}
+section.section--lendable-risk-system p.titles {
+    color: #FFFFFF;
+    margin-bottom: 50px;
+}
+section.section--lendable-risk-system .lendable-risk-system--features p {
+    color: #525252;
+}
+section.section--lendable-risk-system .lendable-risk-system--features .feature .feature--text {
+    padding-left: 65px;
+}
+section.section--lendable-risk-system .lendable-risk-system--features .feature .feature--text h2 {
+    margin-top: 0;
+}
+section.section--lendable-risk-system .lendable-risk-system--features .feature .feature--icon .icon {
+    background-position: 50% 0;
+}
+section.section--lendable-risk-system {
+    padding-top: 50px;
+    padding-bottom: 100px;
+}
+section.section--lendable-risk-system .lendable-risk-system--features .feature {
+    border-radius: 6px;
+}
+
+section.section--lendable_platform {
+    padding-top: 30px;
+    min-height: 1220px;
+}
+section.section--lendable_platform .lendable-platform-screenshot {
+    height: 470px;
+    width: 50%;
+    top: -180px;
+    background-position: 80% 25%;
+}
+section.section--our_investors {
+    min-height: 850px;
+    padding-top: 200px;
+}
+
+section.section--our_investors .logos > .logo > div {
+    height: 90px;
+    width: 220px;
+    background-position: 0 50%;
+    background-size: 90%;
+}
+section.section--deal-benefits .col .box, section.section--lendable_platform .platform-features .col .box {
+    margin-right: auto;
+    margin-left: auto;
+}
+header.header--call_to_action .div--call_to_action .div--call_to_action--text h4,
+section.section--our_investors .section--our_investors--text h4 {
+    margin-top: 15px;
+    color: #35C187;
+    text-transform: uppercase;
+}
+section.section--our_investors p {
+    margin-top: 5px;
+}
+section.section--lendable_platform .platform-features {
+    width: 100%;
+    margin-top: 100px;
+}
+
+section.section--signup_journey.investor {
+    padding-top: 50px;
+    padding-bottom: 0px;
+}
+section.section--signup_journey.lender .container.fluid {
+    height: 420px;
+}
+section.section--signup_journey div.steps-text {
+    margin-top: 0;
+    margin-bottom: 100px;
+}
+section.section--signup_journey div.steps-text .steps {
+    margin-bottom: 0;
+    height: 365px;
+    position: absolute;
+}
+section.section--signup_journey.investor .journey-steps.fund div.steps {
+    background-image: url(../images/icons/sign-up-journey-investor-fd-sm.svg);
+    background-size: 90%;
+    height: 430px;
+}
+section.section--signup_journey.investor .journey-steps.fund div.steps-text p {
+    margin-top: 0px;
+}
+section.section--signup_journey.investor .journey-steps.fund div.steps-text .step.step-2{
+    padding-left: 0;
+    margin-left: -5px;
+}
+section.section--signup_journey.investor .journey-steps.fund div.steps-text .step.step-3,
+section.section--signup_journey.investor .journey-steps.fund div.steps-text .step.step-4 {
+    margin-top: 145px;
+    padding-left: 0;
+}
+section.section--signup_journey.investor .journey-steps.fund div.steps-text .step.step-4 {
+    padding-left: 42.5px;
+}
+section.section--signup_journey div.steps-text .text {
+    padding-left: 0;
+}
+section.section--signup_journey div.steps-text .text > .step-list:first-child {
+    margin-top: 110px;
+}
+section.section--signup_journey div.steps-text .text > .step-list:last-child {
+    margin-top: 117.5px;
+}
+section.section--signup_journey .journey-steps.marketplace div.steps-text {
+    position: relative;
+    min-height: 560px;
+}
+section.section--signup_journey .journey-steps.fund div.steps-text {
+    position: relative;
+    min-height: 350px;
+}
+section.section--signup_journey ._ {
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-left: auto;
+    margin-right: auto;
+    height: 80%;
+}
+section.section--signup_journey form.estimate-form {
+    width: 530px;
+    margin-left: auto;
+    margin-right: auto;
+}
+section.section--signup_journey .estimate-form .form-control {
+    font-size: 13px;
+}
+section.section--signup_journey .estimate-form  .name-pair {
+    padding: 0;
+}
+
+section.section--signup_journey.lender div.steps {
+    background-image: url(../images/icons/sign-up-journey-investor-fd-sm.svg);
+    height: 365px;
+}
+section.section--signup_journey.investor .journey-steps.fund div.steps {
+    position: absolute;
+}
+section.section--signup_journey.lender div.steps-text .step.step-3, 
+section.section--signup_journey.lender div.steps-text .step.step-4 {
+    margin-top: 90px;
+    padding-left: 0;
+}
+section.section--signup_journey.lender div.steps-text .step-list {
+    margin-top: 110px;
+}
+section.section--signup_journey .journey-steps.fund div.steps-text .text > .step-list:first-child {
+    margin-top: 135px;
+}
+section.section--lendable-risk-system .lendable-risk-system--features .feature .feature--icon .icon {
+    background-position: 50% 0;
+}
+
+section.section--our-alternative-lenders .lenders-slider .nav-left {
+    left: -17.5px;
+}
+section.section--our-alternative-lenders .lenders-slider .nav-right {
+    right: -57.5px;
+}
+section.section--our-alternative-lenders {
+    padding-top: 200px;
+    padding-bottom: 75px;
+}
+
+footer .logo-box {
+    float: right;
+}
+
+section.section--key-pillars h2.aligned {
+    min-height: 70px;
+    margin-bottom: 0;
+}
+section.section--how-it-works .benefits-decks > .benefits-decks-image {
+    background-repeat: no-repeat;
+    height: 750px;
+    background-position: 50%;
+}
+section.section--how-it-works .carousel-inner {
+    margin-top: -30px;
+    background-color: #f4f4f5;
+}
+
+@media (min-width: 600px) and (max-width: 767px) {
+    .container {
+        padding-right: 30px;
+        padding-left: 30px;
+    }
+}
+
+/** ipad */
+@media (min-width: 768px) and (max-width: 991px) {
+    section.section--key-pillars h2 {
+        min-height: 70px;
+        margin-bottom: 0;
+    }
+}
+
+/** phones tilted to landscape, phablets */
+@media 
+    (orientation : landscape) and (max-width: 767px), 
+    (orientation : portrait) and (min-aspect-ratio: 5/8), 
+    (orientation : portrait) and (min-aspect-ratio: 75/128) {
+        @media (orientation : landscape) {
+            h1 {
+                font-size: 30px;
+                letter-spacing: 0.25px;
+                line-height: 34px;
+                font-weight: 600;
+            }
+            h1.hero-heading {
+                font-size: 37px;
+                letter-spacing: 0.25px;
+                line-height: 42px;
+                font-weight: 600;
+            }
+
+            h2 {
+                font-size: 24px;
+                line-height: 29px;
+                letter-spacing: 0.19px;
+            }
+            h3 {
+                font-size: 21px;
+                line-height: 27px;
+                letter-spacing: 0.24px;
+            }
+            h4 {
+                font-size: 16px;
+                letter-spacing: 0.29px;
+                line-height: 22px;
+            }
+            h5{
+                font-size: 13px;
+                line-height: 18px;
+            }
+
+            section.section--how-it-works .benefits-decks .benefits-decks-image {
+                background-size: 90%;
+                height: 500px;
+            }
+        }
+
+        section.section--signup_journey .journey-steps.marketplace div.steps-text {
+            position: relative;
+            min-height: 500px;
+        }
+        section.section--signup_journey .journey-steps.marketplace div.steps-text .text > .step-list:first-child {
+            margin-top: 75px;
+        }
+        section.section--signup_journey .journey-steps.marketplace div.steps-text .text > .step-list:last-child {
+            margin-top: 50px;
+        }
+
+        section.section--signup_journey .journey-steps.fund div.steps-text .text > .step-list:first-child {
+            margin-top: 100px;
+        }
+        section.section--signup_journey .journey-steps.fund div.steps-text .text > .step-list:last-child {
+            margin-top: 50px;
+        }
+
+        section.section--lendable-risk-system .titles {
+            width: 60% !important;
+        }
+
+        section.section--signup_journey.investor .journey-steps.fund div.steps-text .step.step-3, 
+        section.section--signup_journey.investor .journey-steps.fund div.steps-text .step.step-4 {
+            margin-top: 95px;
+            padding-left: 0;
+        }
+
+        section.section--signup_journey ._ {
+            height: 60%;
+        }
+        section.section--our-alternative-lenders .lenders-slider {
+            width: 270px;
+            height: 335px;
+            margin-left: 15px;
+        }
+
+
+        header.header--call_to_action .background {
+            padding-top: 0; 
+            min-height: 0;
+        }
+
+        header.header--call_to_action .div--call_to_action {
+            height: 600px;
+        }
+        
+        header.header--call_to_action .div--call_to_action .div--call_to_action--text h1 {
+            margin-top: 50px;
+            width: 85%;
+        }
+        header.header--call_to_action .div--call_to_action .div--call_to_action--text p {
+            width: 85%;
+        }
+        header.header--call_to_action.about {
+            max-height: 750px;
+            min-height: 475px;
+        }
+
+        section.section--key-pillars .pillar-item {
+            margin-bottom: 15px;
+        }
+        section.section--key-pillars .pillar-item:last-child {
+            margin-bottom: 0;
+        }
+        section.section--key-pillars h2.aligned {
+            margin-bottom: 10px;
+            min-height: 0;
+        }
+
+        section.section--deal-benefits {
+            min-height: 816px;
+            padding-top: 60px;
+            padding-bottom: 40px;
+        }
+        section.section--deal-benefits .col .box, section.section--lendable_platform .platform-features .col .box {
+            max-height: 310px;
+            padding: 35px;
+        }
+
+        section.section--how-it-works h1 {
+            margin-bottom: 10px;
+        }
+        section.section--how-it-works p.titles {
+            width: 70%;
+        }
+        
+        section.section--signup_journey.investor .journey-steps.marketplace {
+            display: none;
+        }
+ 
+        section.section--how-it-works .benefits-decks.marketplace {
+            top: -145px;
+        }
+        section.section--lendable-risk-system .lendable-risk-system--features .feature .feature--text {
+            padding-left: 25px;
+        }
+
+        .blank {
+            height: 145px;
+        }
+        .blank.col {
+            height: 0;
+        }
+
+        section.section--our_governance .team-profiles .team-profile--profile {
+            margin-top: 15px;
+        }
+
+        section.section--our_governance .team-profiles .team-profile--profile .team-profile--profile--photo {
+            width: 267px;
+            height: 267px;
+        }
+
+        button.navbar-toggle.collapsed {
+            background: none;
+            border-color: #fff;
+        }
+        .green-bg .navbar-default .navbar-toggle .icon-bar {
+            background-color: #35c187;
+            border-color: #35c187;
+        }
+        .navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover {
+            border-color: #fff;
+            border: none;
+        }
+        .green-bg .navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover {
+            background-color: #35c187;
+        }
+        .green-bg .navbar-default .navbar-toggle:hover .icon-bar {
+            background-color: #fff;
+        }
+
+        @media (orientation : portrait) {
+            section.section--how-it-works .benefits-decks.marketplace > .benefits-decks-image {
+                background-image: url(../images/how-it-works-marketplace-xs.svg);
+                background-position: 50% 35%;
+                height: 1000px;
+            }
+            section.section--how-it-works .benefits-decks.fund > .benefits-decks-image {
+                background-image: url(../images/how-it-works-fund-xs.svg);
+                background-position: 50% 35%;
+            }
+            header.header--call_to_action.home .background {
+                background-size: 145%;
+            }
+            header.header--call_to_action.investor .background {
+                background-size: 135%;
+            }
+            header.header--call_to_action .div--call_to_action .div--call_to_action--text p {
+                width: 75%;
+            }
+            section.section--deal-benefits .col .box, 
+            section.section--lendable_platform .platform-features .col .box {
+                max-height: 320px;
+            }
+        }
+
+        @media (min-width: 480px) {
+            .container {
+                padding-right: 17.5px;
+                padding-left: 17.5px;
+            }
+            section.section--our_governance .team-profiles .team-profile--profile .team-profile--profile--photo {
+                width: 220px;
+                height: 220px;
+            }
+        }
+
+        @media (min-width: 533px) {
+            @media (orientation : portrait) { 
+                section.section--our_governance .team-profiles .team-profile--profile .team-profile--profile--photo {
+                    width: 250px;
+                    height: 250px;
+                }
+            }
+            @media (orientation : landscape) { 
+                section.section--our_governance .team-profiles .team-profile--profile .team-profile--profile--photo {
+                    width: 247px;
+                    height: 247px;
+                }
+            }
+        }
+
+        @media (min-width: 568px) {
+            @media (orientation : portrait) { 
+                section.section--our_governance .team-profiles .team-profile--profile .team-profile--profile--photo {
+                    width: 250px;
+                    height: 250px;
+                }
+            }
+            @media (orientation : landscape) {
+                .container {
+                    padding-right: 32.5px;
+                    padding-left: 32.5px;
+                }
+                section.section--our_governance .team-profiles .team-profile--profile .team-profile--profile--photo {
+                    width: 262.5px;
+                    height: 262.5px;
+                }
+                section.section--how-it-works .benefits-decks .benefits-decks-image {
+                    background-size: 90%;
+                    height: 500px;
+                }
+                section.section--signup_journey.investor .journey-steps.marketplace div.steps {
+                    position: relative;
+                    height: 550px;
+                }
+                section.section--signup_journey.investor .journey-steps.marketplace div.step {
+                    position: relative;
+                    min-height: 115px;
+                }
+                section.section--signup_journey.investor .journey-steps.fund div.steps-text .step.step-3, 
+                section.section--signup_journey.investor .journey-steps.fund div.steps-text .step.step-4 {
+                    margin-top: 0;
+                    padding-left: 0;
+                }
+                section.section--signup_journey .journey-steps.marketplace div.steps-text .text > .step-list:last-child {
+                    margin-top: 0;
+                }
+
+                section.section--our-alternative-lenders {
+                    text-align: center;
+                }
+                section.section--our-alternative-lenders h4 {
+                    width: 90%;
+                    margin-top: 20px;
+                    margin-bottom: 20px;
+                }
+                section.section--our-alternative-lenders .lenders-slider {
+                    margin-left: auto;
+                    margin-right: auto;
+                    margin-top: 50px;
+                }
+                section.section--our-alternative-lenders .links .logos > .logo > div {
+                    margin-left: auto;
+                    margin-right: auto;
+                }
+
+                footer .logo-box {
+                    margin-left: auto;
+                    margin-right: auto;
+                    float: none;
+                }
+
+                header.header--call_to_action .nav.navbar-nav.investor-button-holder {
+                    margin-left: 0;
+                    margin: auto 20px;
+                }
+
+                section.section--signup_journey.investor .journey-steps.fund div.steps-text .squeezed {
+                    width: 100%;
+                }
+                header.header--call_to_action .div--call_to_action .div--call_to_action--text p {
+                    width: 60%;
+                }
+
+                section.section--signup_journey.investor .journey-steps.marketplace .step-list:first-child,
+                section.section--signup_journey.investor .journey-steps.marketplace .steps,
+                section.section--signup_journey.investor .journey-steps.fund .steps {
+                    margin-top: 50px !important;
+                }
+                section.section--signup_journey.investor .journey-steps.fund div.steps,
+                section.section--signup_journey.investor .journey-steps.marketplace div.steps {
+                    position: relative;
+                    background-size: initial;
+                    background-position: 50% 0;
+                }
+                section.section--signup_journey.investor .journey-steps.fund div.steps {
+                    height: 450px;
+                }
+                section.section--signup_journey.investor .journey-steps.fund div.step {
+                    position: relative;
+                    min-height: 115px;
+                }
+
+                section.section--signup_journey.investor .journey-steps.fund div.steps-text .step.step-2,
+                section.section--signup_journey.investor .journey-steps.fund div.steps-text .step.step-3,
+                section.section--signup_journey.investor .journey-steps.fund div.steps-text .step.step-4 {
+                    padding-left: 15px;
+                    margin-left: 0;
+                }
+
+                section.section--signup_journey.investor .journey-steps.fund {
+                    margin-bottom: 0;
+                }
+            }
+        }
+
+        @media (min-width: 640px) {
+            .container {
+                padding-right: 67.5px;
+                padding-left: 67.5px;
+            }
+            
+            @media (orientation : landscape) {
+                section.section--our_governance .team-profiles .team-profile--profile .team-profile--profile--photo {
+                    width: 250px;
+                    height: 250px;
+                }
+            }
+        }
+
+        @media (min-width: 667px) {
+            .container {
+                padding-right: 63.5px;
+                padding-left: 63.5px;
+            }
+
+            @media (orientation : portrait) {
+                section.section--our_governance .team-profiles .team-profile--profile .team-profile--profile--photo {
+                    width: 307.5px;
+                    height: 307.5px;
+                }
+            }
+            @media (orientation : landscape) {
+                section.section--our_governance .team-profiles .team-profile--profile .team-profile--profile--photo {
+                    width: 267px;
+                    height: 267px;
+                }
+            }
+        }
+
+        @media (min-width: 732px) {
+            .container {
+                padding-right: 110px;
+                padding-left: 110px;
+            }
+
+            @media (orientation : landscape) {
+                section.section--our_governance .team-profiles .team-profile--profile .team-profile--profile--photo {
+                    width: 252px;
+                    height: 252px;
+                }
+            }
+        }
+
+        @media (min-width: 736px) {
+            .container {
+                padding-right: 97.5px;
+                padding-left: 97.5px;
+            }
+
+            section.section--our_governance .team-profiles .team-profile--profile .team-profile--profile--photo {
+                width: 267px;
+                height: 267px;
+            }
+        }
+
+        @media (min-width: 768px) {
+            section.section--our_governance .team-profiles .team-profile--profile .team-profile--profile--photo {
+                width: 300px;
+                height: 300px;
+            }
+
+            @media (orientation : portrait) {
+                /*section.section--signup_journey .journey-steps.marketplace div.steps-text {
+                    position: relative;
+                    min-height: 500px;
+                }
+                section.section--signup_journey .journey-steps.marketplace div.steps-text .text > .step-list:first-child {
+                    margin-top: 75px;
+                }
+                section.section--signup_journey .journey-steps.marketplace div.steps-text .text > .step-list:last-child {
+                    margin-top: 50px;
+                }
+
+                section.section--signup_journey .journey-steps.fund div.steps-text .text > .step-list:first-child {
+                    margin-top: 100px;
+                }*/
+                section.section--signup_journey.investor .journey-steps.fund div.steps-text .step.step-3, 
+                section.section--signup_journey.investor .journey-steps.fund div.steps-text .step.step-4 {
+                    margin-top: 75px;
+                    padding-left: 0;
+                }
+                section.section--signup_journey.investor .journey-steps.fund div.steps-text .step.step-3 {
+                    width: 197px;
+                }
+                section.section--signup_journey .journey-steps.fund div.steps-text .text > .step-list:last-child {
+                    margin-top: 100px;
+                }
+                section.section--signup_journey div.steps-text {
+                    margin-top: 0;
+                    margin-bottom: 100px;
+                }
+                section.section--key-pillars h2 {
+                    min-height: 0;
+                    margin-bottom: 10px;
+                }
+                section.section--key-pillars h2.aligned {
+                    min-height: 70px;
+                    margin-bottom: 0;
+                }
+            }
+            @media (orientation : landscape) {
+                section.section--our_governance .team-profiles .team-profile--profile .team-profile--profile--photo {
+                    width: 267px;
+                    height: 267px;
+                }
+            }
+        }
+
+        @media (max-width: 767px) {
+            header.header--call_to_action.green-bg nav.navbar ul.navbar-nav > li > a:active,
+            header.header--call_to_action.green-bg nav.navbar ul.navbar-nav > li > a:focus,
+            header.header--call_to_action.green-bg nav.navbar ul.navbar-nav > li.active > a,
+            header.header--call_to_action.green-bg nav.navbar ul.navbar-nav > li.active > a:focus,
+            header.header--call_to_action.green-bg nav.navbar ul.navbar-nav > li.active > a:active {
+                background-color: transparent;
+                color: #35c187;
+            }
+            header.header--call_to_action.green-bg nav.navbar ul.navbar-nav > li > a:hover {
+                color: #35c187;
+            }
+
+            .navbar-default .navbar-collapse, .navbar-default .navbar-form {
+                border-top: none;
+                margin-top: 5px;
+                position: absolute;
+                z-index: 500;
+                background-color: #fff;
+                left: 0;
+                right: 0;
+                margin-right: 0;
+                padding-top: 15px;
+                padding-bottom: 15px;
+
+                box-shadow: 0 15px 12.5px -4px rgba(101,101,101,0.50);
+                -moz-box-shadow: 0 15px 12.5px -4px rgba(101,101,101,0.50);
+                -webkit-box-shadow: 0 15px 12.5px -4px rgba(101,101,101,0.50);
+            }
+
+            section.section--signup_journey.investor .journey-steps.fund  div.steps {
+                background-image: url(../images/icons/sign-up-journey-investor-fd-xs.svg);
+            }
+            section.section--signup_journey.investor .journey-steps.marketplace  div.steps {
+                background-image: url(../images/icons/sign-up-journey-investor-mp-xs.svg);
+            }
+
+            section.section--signup_journey.investor div.steps {
+                position: absolute;
+                background-size: 40%;
+                min-height: 400px;
+                padding-top: 0;
+                margin-bottom: 150px;
+                background-position: 50% 0;
+                margin-top: 75px;
+                height: 500px;
+            }
+
+            header.header--call_to_action nav.navbar {
+                background-color: #fff;
+            }
+
+            section.section--key-pillars {
+                text-align: center;
+            }
+            section.section--our_governance {
+                text-align: center;
+            }
+
+            section.section--signup_journey.investor .journey-steps.marketplace {
+                display: none;
+                margin-bottom: 0;
+            }
+
+            section.section--signup_journey.investor div.steps {
+                min-height: 384px;
+                margin-bottom: 0;
+                height: 490px;
+            }
+                    
+            footer.dark-footer {
+                text-align: center;
+            }
+
+            @media (orientation : portrait) {
+                #bios-modal .modal-content {
+                    margin-top: 50px;
+                }
+                #bios-modal .modal-header {
+                    height: auto !important;
+                }
+                #bios-modal .bios-content .bios-image {
+                    height: 320px;
+                    width: 100%;
+                }
+                #bios-modal .bios-content .bios-text {
+                    padding: 5px 5px 5px 15px;
+                    text-align: left;
+                    height: 40%;
+                }
+                #bios-modal .modal-header h5 {
+                    margin-top: 0px;
+                    margin-bottom: 15px;
+                }
+                #bios-modal .modal-header h4 {
+                    margin-top: 5px;
+                    margin-bottom: 0;
+                }
+                #bios-modal .bio {
+                    padding-right: 10px;
+                }
+            }
+
+            @media (orientation : landscape) {
+                header.header--call_to_action .div--call_to_action .div--call_to_action--text p {
+                    width: 55%;
+                }
+                header.header--call_to_action.home .background,
+                header.header--call_to_action.investor .background {
+                    background-size: 127%;
+                }
+                header.header--call_to_action .div--call_to_action {
+                    height: 515px;
+                }
+
+                section.section--blog-articles--list .post-preview .post .post-meta {
+                    padding-left: 0;
+                    width: 65px;
+                }
+                header.header--call_to_action.blog .div--call_to_action {
+                    height: 220px;
+                }
+                section.section--blog-articles--list .post-preview .post .post-inline-meta .meta-name, 
+                section.section--blog-articles--list .post-detail .post .post-inline-meta .meta-name {
+                    padding-left: 0px;
+                }
+
+                section.section--signup_journey div.steps-text .steps {
+                    position: relative; 
+                    height: 390px;
+                    background-image: url(../images/icons/sign-up-journey-investor-fd-xs.svg);
+                    background-position: 50%;
+                }
+                section.section--signup_journey.lender div.steps-text .step-list {
+                    margin-top: 0;
+                }
+                section.section--signup_journey.lender div.steps-text .step.step-3, section.section--signup_journey.lender div.steps-text .step.step-4 {
+                    margin-top: 0;
+                    padding-left: 0;
+                }
+                section.section--signup_journey.lender .step {
+                    min-height: 116px;
+                }
+                section.section--lendable_platform .lendable-platform-screenshot {
+                    height: 386px;
+                    width: 100%;
+                    background-position: 50% 0%;
+                    background-size: 90%;
+                }
+                section.section--lendable_platform {
+                    padding-top: 185px;
+                }
+                section.section--signup_journey div.steps-text {
+                    margin-bottom: 50px;
+                }
+
+                section.section--scaling .scaling-testimony-deck .client-logo {
+                    width: 40%;
+                    background-size: 100%;
+                }
+
+                section.section--scaling .section--scaling--img.scaling-is-hard {
+                    background-position: 50%;
+                    background-size: 50%;
+                    margin-top: 100px;
+                }
+                section#signup-journey {
+                    height: 1250px;
+                }
+                section.section--our_investors .logos > .logo > div {
+                    height: 67px;
+                    width: 220px;
+                    background-position: 0;
+                    background-size: 85%;
+                }
+                section.section--lendable_platform .platform-features {
+                    margin-top: 25px;
+                }
+
+                #bios-modal .bios-content .bios-image {
+                    height: 310px;
+                    width: 100%;
+                }
+                #bios-modal .modal-dialog {
+                    width: 415px;
+                    margin: 15px auto;
+                }
+                #bios-modal .bios-content .bios-text {
+                    padding: 20px 20px 20px 30px;
+                    text-align: left;
+                    height: 80%;
+                }
+                #bios-modal .modal-header h5 {
+                    margin-top: 0px;
+                    margin-bottom: 15px;
+                }
+                #bios-modal .modal-header h4 {
+                    margin-top: 5px;
+                    margin-bottom: 0;
+                }
+                #bios-modal .bio {
+                    padding-right: 10px;
+                }
+             }
+             section.section--scaling .scaling-testimony-deck {
+                padding: 40px;
+            }
+        }
+}
+
+@media (min-width: 738px) {
+    @media (orientation : portrait) {
+        @media (min-aspect-ratio: 75/128) {
+            .container {
+                padding-right: 30px;
+                padding-left: 30px;
+            }
+            section.section--our_governance .team-profiles .team-profile--profile .team-profile--profile--photo {
+                width: 300px;
+                height: 300px;
+            }
+        }
+        @media (min-aspect-ratio: 5/8) {
+            .container {
+                padding-right: 8.5px;
+                padding-left: 8.5px;
+            }
+            section.section--deal-benefits .col .box, section.section--lendable_platform .platform-features .col .box {
+                max-height: 320px;
+                padding: 35px;
+            }
+        }
+        @media (min-aspect-ratio: 3/4) {
+            .container {
+                padding-right: 8.5px;
+                padding-left: 8.5px;
+            }
+            section.section--signup_journey div.steps-text {
+                margin-bottom: 25px;
+            }
+            section.section--signup_journey.investor .journey-steps.fund {
+                margin-bottom: 25px;
+            }
+            section.section--signup_journey.investor.squeezed {
+                min-height: 1385px;
+            }
+
+            #bios-modal .bios-content .bios-image {
+                height: 385px;
+                width: 100%;
+            }
+            #bios-modal .modal-dialog {
+                width: 415px;
+                margin: 10px auto;
+                height: 80%;
+                margin-top: 50px;
+            }
+            #bios-modal .bios-content .bios-text {
+                padding: 20px 20px 20px 30px;
+                text-align: left;
+                height: 100%;
+            }
+            #bios-modal .modal-header h5 {
+                margin-top: 0px;
+                margin-bottom: 15px;
+            }
+            #bios-modal .modal-header h4 {
+                margin-top: 5px;
+                margin-bottom: 0;
+            }
+            #bios-modal .bio {
+                padding-right: 10px;
+            }
+        }
+    }
+    @media (orientation : landscape) {
+        @media (min-aspect-ratio: 75/128) {
+            .container {
+                padding-right: 30px;
+                padding-left: 30px;
+            }
+        }
+        @media (min-aspect-ratio: 5/8) {
+            .container {
+                padding-right: 8.5px;
+                padding-left: 8.5px;
+            }
+        }
+        @media (min-aspect-ratio: 3/4) {
+            section.section--our_governance .team-profiles .team-profile--profile .team-profile--profile--photo {
+                width: 295px;
+                height: 295px;
+            }
+        }
+    }
+}
+
+@media (orientation : portrait) and (max-width: 737px){
+    .container {
+        padding-right: 47.5px;
+        padding-left: 47.5px;
+    }
+    
+    section.section--signup_journey.investor .journey-steps.fund div.steps {
+        height: 430px;
+        background-size: contain;
+    }
+    section.section--signup_journey.investor .journey-steps.fund div.steps-text .step.step-2 {
+        padding-left: 15px;
+        margin-left: auto;
+    }
+    section.section--signup_journey.investor .journey-steps.fund div.steps-text .squeezed {
+        width: 100%;
+    }
+    section.section--signup_journey.investor .journey-steps.fund div.steps-text .step.step-3, 
+    section.section--signup_journey.investor .journey-steps.fund div.steps-text .step.step-4 {
+        margin-top: 0;
+        padding-left: 15px;
+    }
+    section.section--signup_journey.investor .journey-steps.marketplace div.steps {
+        height: 535px;
+    }
+    section.section--signup_journey.investor .journey-steps.marketplace .step {
+        min-height: 123px;
+    }
+    section.section--signup_journey.investor .journey-steps.fund .step {
+        min-height: 127.5px;
+    }
+    section.section--signup_journey.investor .journey-steps.fund div.steps-text .text {
+        margin-top: 25px;
+    }
+    section.section--signup_journey.investor .journey-steps.marketplace div.steps-text {
+        margin-top: 0;
+        margin-bottom: 75px;
+    }
+    section.section--signup_journey.investor .journey-steps.fund div.steps-text {
+        margin-top: 0;
+        margin-bottom: 0;
+    }
+    section.section--signup_journey.investor .journey-steps.fund {
+        margin-bottom: 75px;
+    }
+    section.section--signup_journey .journey-steps.marketplace div.steps-text .text > .step-list:last-child {
+        margin-top: 0;
+    }
+    section.section--our-alternative-lenders {
+        padding-top: 225px;
+        padding-bottom: 75px;
+    }
+
+    footer.dark-footer p {
+        max-width: 50%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    footer .logo-box {
+        margin-left: auto;
+        margin-right: auto;
+        float: none;
+    }
+}
+
+@media (min-width: 1024px){
+    @media (orientation : portrait) {
+        header.header--call_to_action .background {
+            background-size: 101.5% !important;
+        }
+        header.header--call_to_action .div--call_to_action .div--call_to_action--text h1 {
+            margin-top: 80px;
+            max-width: 70%;
+            margin-bottom: 0;
+        }
+        header.header--call_to_action .div--call_to_action .div--call_to_action--text p {
+            max-width: 55%;
+        }
+
+        section.section--our_governance .team-profiles .team-profile--profile .team-profile--profile--photo {
+            width: 310px;
+            height: 310px;
+        }
+
+        section.section--signup_journey.lender div.steps {
+            background-image: url(../images/icons/sign-up-journey-lender.svg);
+            background-size: 96%;
+        }
+
+        section.section--signup_journey.investor .journey-steps.fund div.steps-text {
+            position: relative;
+            min-height: 350px;
+        }
+        section.section--signup_journey .journey-steps.marketplace div.steps-text .text > .step-list:first-child {
+            margin-top: 110px; 
+        }
+        section.section--signup_journey div.steps-text .text > .step-list:last-child {
+            margin-top: 117.5px;
+        }
+        section.section--signup_journey.lender div.steps-text .step-list {
+            margin-top: 155px;
+        }
+        section.section--signup_journey div.steps-text {
+            margin-top: 0;
+            margin-bottom: 0;
+        }
+
+        .blank {
+            display: none !important;
+        }
+        signup_journey.lender .step-list {
+            margin-top: 155px;
+        }
+        section.section--signup_journey.lender div.steps-text .step.step-3, 
+        section.section--signup_journey.lender div.steps-text .step.step-4 {
+            margin-top: 0;
+            padding-left: 0;
+        }
+
+        section.section--signup_journey.investor .journey-steps.marketplace {
+            display: none;
+            margin-bottom: 0;
+        }
+        section.section--signup_journey.lender div.steps-text {
+            margin-bottom: 75px;
+        }
+        section.section--signup_journey.investor .journey-steps {
+            margin-bottom: 85px;
+        }
+        section.section--signup_journey.investor ._ {
+            height: 44%;
+        }
+        section.section--signup_journey.investor .journey-steps.marketplace {
+            margin-bottom: 75px;
+        }
+
+        section.section--lendable_platform {
+            min-height: 1075px;
+        }
+        section.section--lendable_platform .platform-features {
+            margin-top: 200px;
+        }
+        section.section--lendable_platform .lendable-platform-screenshot {
+            height: 545px;
+            width: 100%;
+            background-position: 290% 25%;
+            background-size: 120%;
+        }
+        
+    }
+
+    @media (orientation: landscape) {
+        #bios-modal .modal-dialog {
+            height: 386px;
+        }
+        header.header--call_to_action .background {
+            height: 650px;
+            background-size: 90%;
+        }
+        @media (min-aspect-ratio: 3/4) {
+            header.header--call_to_action .background {
+                background-size: 112.5%;
+            }
+        }
+        header.header--call_to_action .div--call_to_action .div--call_to_action--text h1 {
+            margin-top: 80px;
+            max-width: 70%;
+            margin-bottom: 0;
+        }
+        header.header--call_to_action .div--call_to_action .div--call_to_action--text p {
+            max-width: 60%;
+        }
+        section.section--signup_journey.investor .journey-steps.fund {
+            margin-bottom: 100px;
+        }
+        section.section--signup_journey.home div.steps-text {
+            margin-bottom: 80px;
+        }
+        section.section--signup_journey.lender div.steps {
+            background-image: url(../images/icons/sign-up-journey-lender.svg);
+            height: 365px;
+            background-size: 96%;
+        }
+        section.section--signup_journey.lender div.steps-text .step-list {
+            margin-top: 155px;
+        }
+        section.section--signup_journey.lender div.steps-text .step.step-3, 
+        section.section--signup_journey.lender div.steps-text .step.step-4 {
+            margin-top: 0;
+            padding-left: 0;
+        }
+        section.section--lendable_platform .platform-features {
+            margin-top: 200px;
+        }
+        section.section--lendable_platform .lendable-platform-screenshot {
+            height: 545px;
+            width: 100%;
+            background-position: 290% 25%;
+            background-size: 120%;
+        }
+
+        section.section--lendable_platform {
+            min-height: 1150px;
+        }
+    }
+}

@@ -5,6 +5,7 @@ subtitle:   "We’re launching Lendable Labs to help originators get better at w
 date:       2017-01-17 12:00:00
 author:     "Daniel Goldfarb, CEO"
 header-img: "img/lendable_labs/call_center.png"
+tags:       analytics lendable-labs
 ---
 
 

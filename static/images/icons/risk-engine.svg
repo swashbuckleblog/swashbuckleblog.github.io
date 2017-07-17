@@ -1,0 +1,11 @@
+<svg class="nc-icon outline" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="64px" height="64px" viewBox="0 0 64 64">
+<g transform="translate(0, 0)">
+<path fill="none" stroke="#35c187" stroke-width="2" stroke-linecap="square" stroke-miterlimit="10" d="M8,41V13
+	c0-2.209,1.791-4,4-4h40c2.209,0,4,1.791,4,4v28" stroke-linejoin="miter"></path>
+<path fill="none" stroke="#35c187" stroke-width="2" stroke-linecap="square" stroke-miterlimit="10" d="M40,47v3H24v-3H2
+	c0,4.418,3.582,8,8,8h44c4.418,0,8-3.582,8-8H40z" stroke-linejoin="miter"></path>
+<rect data-color="color-2" x="29" y="17" fill="none" stroke="#262b3a" stroke-width="2" stroke-linecap="square" stroke-miterlimit="10" width="6" height="20" stroke-linejoin="miter"></rect>
+<rect data-color="color-2" x="16" y="29" fill="none" stroke="#262b3a" stroke-width="2" stroke-linecap="square" stroke-miterlimit="10" width="6" height="8" stroke-linejoin="miter"></rect>
+<rect data-color="color-2" x="42" y="24" fill="none" stroke="#262b3a" stroke-width="2" stroke-linecap="square" stroke-miterlimit="10" width="6" height="13" stroke-linejoin="miter"></rect>
+</g>
+</svg>

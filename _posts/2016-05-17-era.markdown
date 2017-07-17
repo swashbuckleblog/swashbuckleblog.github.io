@@ -5,13 +5,14 @@ subtitle:   "We are more saturated with information than ever before. Lendable k
 date:       2016-05-17 12:00:00
 author:     "Joe Brew, data scientist"
 header-img: "img/era/mechanics.jpg"
+tags:       data analytics
 ---
 
 If “the essence of finance is time travel” (<a href = "https://www.bloomberg.com/view/articles/2015-12-16/fed-day-junk-bonds-and-unicorns">Matt Levine, Fed Day, Junk Bonds and Unicorns</a>) then the essence of investing is using information available today to form reasonable expectations about the future. In the developing world that is hard, always has been, and always will be. Thanks to cheap mobile phones, productized CRMs and data services companies, we have never had more info to work with. We are entering an era of data abundance, and the availability of novel sources of information and massive computing power will radically transform investing… for those who know how to use that information.
 
 
 
-# **ERA OF DATA SCARCITY**
+## ERA OF DATA SCARCITY
 
 In the era of data scarcity (ie, beginning of time until about 1995), financial institutions operated in the dark, treating different customers, product classes and geographies identically, or relying on informal and inconsistent anecdotal systems (charitably called “rules of thumb”) to inform their lending decisions. Many of these rules of thumb live on today, in contemporary credit scoring. Data scarcity led to information asymmetries between lenders and borrowers, pushing up the cost of capital, particularly for those in low-income countries. Huge geographical differences in credit costs, in part based on a lack of information or perceived lack of information, persist today.
 
@@ -20,7 +21,7 @@ In the era of data scarcity (ie, beginning of time until about 1995), financial 
 </a>
 <span class="caption text-muted">Risk premium on lending (lending rate minus treasury bill rate) over time by countries’ income group. Lending in low income countries remains prohibitively expensive for many, partially due to a perceived lack of information regarding risk. Data from the World Bank.</span>
 
-# **ERA OF DATA ABUNDANCE**
+## ERA OF DATA ABUNDANCE
 
 From temperature, precipitation and vegetation density to acts of violence and agricultural prices, never before have so many real-time, relevant, and quality data been available for emerging markets. But for every good and useful dataset out there, there is a plethora of misleading, doctored, out-of-date, biased, dirty and inaccurate data.
 The large scale financing of non-deposit taking credit institutions is held up by two problems: (1) originators are not equipped to deal technically with the massive quantity of data available to them and (2) investors face difficulty identifying and trusting in the quality of point-of-sale data, third party payment gateways, and external data generally.
@@ -36,7 +37,7 @@ Frontier financial institutions, lacking access to large-scale commercial capita
 <span class="caption text-muted">Commercial loans per 1,000 population: a cycle in which wealthy countries have more lending, and countries with more lending get wealthy.  Charity and “micro” finance have a place, but massive disruption requires massive scale. Data from the World Bank.</span>
 
 
-# **LENDABLE'S ROLE IN THE ERA OF DATA**
+## LENDABLE'S ROLE IN THE ERA OF DATA
 
 Though we are living in the era of data, standardized consumer credit scoring has not yet emerged in areas where microfinance is most established (see <a href="{{ site.baseurl }}/2016/03/29/risk/"> this post</a>). Accordingly, financial institutions operating in the developing world, and investors interested in those institutions, must rely on alternative metrics of creditworthiness. Lendable takes the originator-investor relationship into the era of data abundance in five key ways: 
 
@@ -47,7 +48,7 @@ Though we are living in the era of data, standardized consumer credit scoring ha
 5. Providing real time tracking of standard and comparable metrics.
 
 
-# **IT WORKS**
+## IT WORKS
 
 In the era of data scarcity it was believed that frontier finance was a fool’s errand, largely akin to gambling. While the math whizzes and finance gurus built ever-more-complex algorithms and strategies for investing in developed world securities, financial institutions in the developing world were left by the wayside. It was believed that the general lack of reliable data in volatile and poor countries made it so that forecasting performance and predicting cash flows there simply was not possible.
 

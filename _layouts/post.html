@@ -2,49 +2,59 @@
 layout: default
 ---
 
-<!-- Post Header -->
-<header class="intro-header" style="background-image: url('{{ site.baseurl }}/{% if page.header-img %}{{ page.header-img }}{% else %}{{ site.header-img }}{% endif %}')">
+<section class="section--blog-articles--list">
     <div class="container">
         <div class="row">
-            <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
-                <div class="post-heading">
-                    <h1>{{ page.title }}</h1>
-                    {% if page.subtitle %}
-                    <h2 class="subheading">{{ page.subtitle }}</h2>
-                    {% endif %}
-                    <span class="meta">Posted by {% if page.author %}{{ page.author }}{% else %}{{ site.title }}{% endif %} on {{ page.date | date: "%B %-d, %Y" }}</span>
+            <div class="col-lg-offset-2 col-lg-8 col-md-offset-1 col-md-10 col-sm-offset-1 col-sm-10 col-xs-12">
+                <div class="post-detail">
+                    <div class="row">
+                        <div class="social-media-links col-lg-1 col-md-1 hidden-xs hidden-sm">
+                            <a href="{{ page.twitter-link | default: 'https://twitter.com/lendableinc' }}"><i class="fa fa-twitter"></i></a>
+                            <a href="{{ page.linkedin-link | default: 'https://www.linkedin.com/company-beta/7952833/' }}"><i class="fa fa-linkedin"></i></a>
+                        </div>
+                        <div class="post col-lg-10 col-md-10">
+                            <div class="post-tags">
+                                {% for tag in page.tags %}
+                                    <span>{{ tag }}</span>
+                                    {% if forloop.last == false %}
+                                        <span class="bullet">&#8226;</span>
+                                    {% endif %}
+                                {% endfor %}
+                            </div>
+                            <h1 class="post-title">
+                                {{ page.title }}
+                            </h1>
+                            {% if post.subtitle %}
+                                <h2 class="post-subtitle">
+                                    {{ page.subtitle }}
+                                </h2>
+                            {% endif %}
+                            <div class="post-inline-meta">
+                                <span class="meta-date"><strong>{{ page.date | date: "%B %-d" }}</strong> {{ page.date | date: "%Y" }}</span>
+                                <span class="meta-name">{% if post.author %}{{ post.author }}{% else %}{{ site.title }}{% endif %}</span>
+                            </div>
+                            <div class="social-media-links visible-xs">
+                                <a href="{{ page.twitter-link | default: 'https://twitter.com/lendableinc' }}"><i class="fa fa-twitter"></i></a>
+                                <a href="{{ page.linkedin-link | default: 'https://www.linkedin.com/company-beta/7952833/' }}"><i class="fa fa-linkedin"></i></a>
+                            </div>
+                            
+                            {{ content }}
+
+                        </div>
+                    </div>
                 </div>
+
+                <nav class="center">
+                    <ul class="pager">
+                        <li class="previous">
+                            <a class="btn-lg" href="/blog/">
+                                <span aria-hidden="true">&larr;</span> Back to Stories 
+                            </a>
+                        </li>
+                    </ul>
+                </nav>
             </div>
+            
         </div>
     </div>
-</header>
-
-<!-- Post Content -->
-<article>
-    <div class="container">
-        <div class="row">
-            <div class="col-lg-10 col-lg-offset-1 col-md-9 col-md-offset-1">
-
-				{{ content }}
-
-                <hr>
-
-                <ul class="pager">
-                    {% if page.previous.url %}
-                    <li class="previous">
-                        <a href="{{ page.previous.url | prepend: site.baseurl | replace: '//', '/' }}" data-toggle="tooltip" data-placement="top" title="{{page.previous.title}}">&larr; Previous Post</a>
-                    </li>
-                    {% endif %}
-                    {% if page.next.url %}
-                    <li class="next">
-                        <a href="{{ page.next.url | prepend: site.baseurl | replace: '//', '/' }}" data-toggle="tooltip" data-placement="top" title="{{page.next.title}}">Next Post &rarr;</a>
-                    </li>
-                    {% endif %}
-                </ul>
-
-            </div>
-        </div>
-    </div>
-</article>
-
-<hr>
+</section>

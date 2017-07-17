@@ -1,35 +1,40 @@
-<!-- Navigation -->
-<nav class="navbar navbar-default navbar-custom navbar-fixed-top">
-    <div class="container-fluid">
-        <!-- Brand and toggle get grouped for better mobile display -->
-        <div class="navbar-header page-scroll">
-            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-                <span class="sr-only">Toggle navigation</span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-            </button>
-            <a class="navbar-brand" href="http://lendablemarketplace.com/">
-                <img src="{{ site.baseurl }}/img/lendable_logo_1.svg" />
-            </a>
-        </div>
+<header class="header--call_to_action blog grey-bg">
+    <nav class="navbar navbar-default">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#collapsable-menu" aria-expanded="false">
+                    <!-- for mobile responsive button -->
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="/index.html">
+                    <div class="logo"></div>
+                </a>
+            </div>
 
-        <!-- Collect the nav links, forms, and other content for toggling -->
-        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-            <ul class="nav navbar-nav navbar-right">
-                <li><a href="http://lendablemarketplace.com/">Home</a></li>
-                <li><a href="http://lendablemarketplace.com/about.html">About Us</a></li>
-                <li><a href="/blog/index.html" class="active">Blog</a></li>
+            <div class="collapse navbar-collapse" id="collapsable-menu">
+                <ul class="nav navbar-nav investor-button-holder hidden-xs hidden-sm">
+                    <li>
+                        <a class="btn btn-pill btn-clear" href="/investor.html">Investor</a>
+                    </li>
+                </ul>
                 
-                {% for page in site.pages %}{% if page.title %}
-                <li>
-                    <a href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a>
-                </li>
-                {% endif %}{% endfor %}
-            </ul>
+                <ul class="nav navbar-nav navbar-right">
+                    <li class="visible-xs visible-sm"><a href="/investor.html">Investor</a></li>
+                    <li><a href="/about.html">About Us</a></li>
+                    <li class="active"><a href="/blog/">Blog</a></li>
+                    <li class="hidden dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
+                            News/Events <span class="bell-notification">10</span>
+                        </a>
+                    </li>
+                </ul>
+            </div>
         </div>
-        <!-- /.navbar-collapse -->
-    </div>
-    <!-- /.container -->
-</nav>
+    </nav>
 
+    <div class="background" style="background-image: url('{{ site.baseurl }}/{% if page.header-img %}{{ page.header-img }}{% else %}{{ site.header-img }}{% endif %}')">
+    </div>
+</header>

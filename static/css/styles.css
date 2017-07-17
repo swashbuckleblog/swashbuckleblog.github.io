@@ -1,0 +1,1267 @@
+html {
+    font-family: "freight-sans-pro", Helvetica, Arial, sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    width: 100%;
+}
+body {
+    font-family: "freight-sans-pro", Helvetica, Arial, sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    color: #525252;
+    width: 100%;
+}
+
+h1, h2, h3, h4, h5 {
+    font-family: "canada-type-gibson", Helvetica, Arial, sans-serif;
+}
+
+strong {
+    font-weight: 600;
+}
+
+span.bullet {
+    padding: 0 7.5px;
+}
+.grey-bg, 
+.grey-gradient-bg {
+    background-color: #F4F4F5;
+}
+.grey-bg h1, 
+.grey-gradient-bg h1 {
+    color: #262b3a;
+}
+.grey-gradient-bg {
+    background-image: -webkit-linear-gradient(#EDEDED 0%, #E3E3E3 100%);
+    background-image: -moz-linear-gradient(#EDEDED 0%, #E3E3E3 100%);
+    background-image: -o-linear-gradient(#EDEDED 0%, #E3E3E3 100%);
+    background-image: linear-gradient(#EDEDED 0%, #E3E3E3 100%);
+}
+.white-bg h1 {
+    color: #626362;
+}
+.green-bg {
+    background-color: #35c187;
+}
+.green-bg h1,
+.green-bg p {
+    color: #fff;
+}
+.white-bg h2 {
+    color: #35c187;
+}
+.white-bg h4 {
+    color: #35c187;
+    text-transform: uppercase;
+}
+.green {
+    color: #35c187;
+}
+.grayscale {
+    filter: gray;
+    filter: url(data:image/svg+xml;utf8,<svg xmlns=\'http://www.w3.org/2000/svg\'><filter i…0.3333 0 0 0.3333 0.3333 0.3333 0 0 0 0 0 1 0\'/></filter></svg>#grayscale);
+    -o-filter: url(data:image/svg+xml;utf8,<svg xmlns=\'http://www.w3.org/2000/svg\'><filter i…0.3333 0 0 0.3333 0.3333 0.3333 0 0 0 0 0 1 0\'/></filter></svg>#grayscale);
+    -webkit-filter: grayscale(100%);
+}
+.name-pair {
+    padding: 0 7.5px;
+}
+
+.btn.btn-pill.btn-clear,
+.pager li > a, 
+.pager li > span {
+    font-weight: 600;
+
+    color: #35c187 !important;
+
+    border-color: #35c187;
+    border-radius: 100px;
+    border-width: 1.5px;
+}
+.btn.btn-pill.btn-clear:hover,
+.pager li > a:hover, 
+.pager li > span:hover {
+    color: #fff !important;
+    background-color: #35c187;
+
+    border-color: #35c187;
+}
+.pager li > a, 
+.pager li > span {
+    text-transform: uppercase;
+    font-size: 14px;
+}
+
+header.header--call_to_action.blog .div--call_to_action {
+    height: 400px;
+}
+header.header--call_to_action.blog .background {
+    height: 125px;
+}
+section.section--blog-articles--list {
+    padding-top: 75px;
+    padding-bottom: 62.5px;
+    text-align: left;
+}
+
+section.section--blog-articles--list .post-detail img {
+    width: 100%;
+}
+section.section--blog-articles--list .post-preview .post a,
+section.section--blog-articles--list .post-preview .post a:focus, 
+section.section--blog-articles--list .post-preview .post a:hover {
+    color: inherit;
+    text-decoration: none;
+}
+section.section--blog-articles--list .post-preview .post a:focus h2, 
+section.section--blog-articles--list .post-preview .post a:hover h2 {
+    color: #35c187;
+}
+section.section--blog-articles--list .post-preview .post a:focus *, 
+section.section--blog-articles--list .post-preview .post a:hover * {
+    opacity: .9;
+}
+section.section--blog-articles--list .post-preview:not(:first-child) {
+    margin-top: 30px;
+}
+section.section--blog-articles--list .post-preview:not(:first-child) .post-meta {
+    padding-top: 32.5px;
+}
+section.section--blog-articles--list .post-preview:not(:first-child) .post-tags {
+    padding-top: 30px;
+    border-top: 1px solid #d9dddb;
+}
+section.section--blog-articles--list .post-preview .post .post-tags,
+section.section--blog-articles--list .post-detail .post .post-tags {
+    font-size: 14px;
+    line-height: 25px;
+    text-transform: uppercase;
+}
+
+section.section--blog-articles--list .post-preview .post-meta {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+section.section--blog-articles--list .post-preview .post-meta,
+section.section--blog-articles--list .post-detail .post-meta {
+    font-size: 12.5px;
+    color: #919391;
+    text-transform: uppercase;
+}
+section.section--blog-articles--list .post-detail .post .post-meta ,
+section.section--blog-articles--list .post-preview .post .post-meta {
+    width: 37.5px;
+}
+section.section--blog-articles--list .post-snippet * {
+    font-size: 18px;
+    font-weight: 100;
+    text-transform: initial;
+}
+
+section.section--blog-articles--list .post-preview .post .post-meta {
+    margin-bottom: 15px;
+}
+section.section--blog-articles--list .read-more {
+    color: #35c187 !important;
+    margin-top: 10px !important;
+    text-transform: uppercase;
+}
+section.section--blog-articles--list .post-preview .post h2,
+section.section--blog-articles--list .post-detail .post h2 {
+    color: #747674;
+    font-weight: 600;
+}
+section.section--blog-articles--list .post-preview .post .post-inline-meta,
+section.section--blog-articles--list .post-detail .post .post-inline-meta {
+    margin-bottom: 15px;
+    text-transform: uppercase;
+}
+section.section--blog-articles--list .post-detail .post .post-inline-meta {
+    margin-bottom: 25px;
+}
+section.section--blog-articles--list .post-preview .post .post-inline-meta .meta-name,
+section.section--blog-articles--list .post-detail .post .post-inline-meta .meta-name {
+    padding-left: 20px;
+}
+section.section--blog-articles--list .post-preview p {
+    margin-bottom: 0;
+}
+section.section--blog-articles--list .post-detail p {
+    margin-bottom: 29px;
+}
+section.section--blog-articles--list .post-detail > .row > .social-media-links {
+    padding-top: 152.5px;
+}
+section.section--blog-articles--list .post-detail > .row > .social-media-links a {
+    color: #35c187;
+}
+section.section--blog-articles--list .post-detail > .row > .social-media-links a:hover,
+section.section--blog-articles--list .post-detail > .row > .social-media-links a:focus,
+section.section--blog-articles--list .post-detail > .row > .social-media-links a:active {
+    text-decoration: none;
+    color: #262B39;
+}
+section.section--blog-articles--list .post-detail > .row > .social-media-links .fa {
+    display: table;
+    margin: 12.5px auto;
+    font-size: 20px;
+}
+section.section--blog-articles--list .pager {
+    margin-top: 45px;
+    text-align: left;
+    margin-left: -15px;
+}
+
+.green-bg .btn.btn-pill.btn-clear {
+    color: #fff !important;
+    background-color: #35c187;
+    border-color: #fff;
+}
+.green-bg .btn.btn-pill.btn-clear:hover {
+    color: #35c187 !important;
+    background-color: #fff;
+    border-color: #fff;
+}
+.btn-pill.btn-lg {
+    padding: 15px 35px;
+    border-radius: 40px;
+}
+
+section {
+    padding-top: 50px;
+    position: relative;
+}
+
+header.header--call_to_action {
+    padding-bottom: 0;
+    padding-top: 25px;
+}
+header.header--call_to_action .background {
+    background-position-x: center;
+    background-position-y: 100%;
+    background-repeat: no-repeat;
+    background-attachment: local;
+    background-size: 97.5%;
+    min-height: 652px;
+}
+header.header--call_to_action.home .background {
+    background-image: url(../images/backgrounds/lender2x.png);
+}
+header.header--call_to_action.investor .background {
+    background-image: url(../images/backgrounds/bodaboda.png);
+}
+header.header--call_to_action.blog .background {
+    min-height: auto;
+    height: auto;
+    background-size: cover !important;
+}
+header.header--call_to_action.blog {
+    color: #fff;
+    padding-top: 0;
+}
+header.header--call_to_action.blog h1 {
+    color: #fff;
+}
+header.header--call_to_action.blog p {
+    color: #fff !important;
+    font-weight: 600;
+}
+
+header.header--call_to_action nav.navbar {
+    border-radius: 0;
+    background: none;
+    opacity: 1;
+    border: none;
+    margin-bottom: 0;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+header.header--call_to_action.blog nav.navbar {
+    background-color: #fff;
+}
+header.header--call_to_action nav.navbar ul.navbar-nav > li > a {
+    text-transform: uppercase;
+    font-size: 12px;
+    color: #262b3a;
+    font-weight: 600;
+}
+header.header--call_to_action nav.navbar ul.navbar-nav > li > a:active,
+header.header--call_to_action nav.navbar ul.navbar-nav > li > a:focus,
+header.header--call_to_action nav.navbar ul.navbar-nav > li.active > a,
+header.header--call_to_action nav.navbar ul.navbar-nav > li.active > a:focus,
+header.header--call_to_action nav.navbar ul.navbar-nav > li.active > a:active {
+    background-color: transparent;
+    color: #35c187;
+}
+header.header--call_to_action.green-bg nav.navbar ul.navbar-nav > li > a:active,
+header.header--call_to_action.green-bg nav.navbar ul.navbar-nav > li > a:focus,
+header.header--call_to_action.green-bg nav.navbar ul.navbar-nav > li.active > a,
+header.header--call_to_action.green-bg nav.navbar ul.navbar-nav > li.active > a:focus,
+header.header--call_to_action.green-bg nav.navbar ul.navbar-nav > li.active > a:active {
+    background-color: transparent;
+    color: #fff;
+}
+header.header--call_to_action nav.navbar ul.navbar-nav > li > a:hover {
+    color: #35c187;
+}
+header.header--call_to_action.green-bg nav.navbar ul.navbar-nav > li > a:hover {
+    color: #fff;
+}
+
+header.header--call_to_action.green-bg nav.navbar ul.navbar-nav > li > a:hover {
+    color: #fff;
+}
+header.header--call_to_action nav.navbar ul.navbar-nav.navbar-right > li {
+    margin-left: 25px;
+}
+header.header--call_to_action nav.navbar .navbar-header a.navbar-brand > .logo {
+    background-image: url(../images/logos/logo.svg);
+    background-repeat: no-repeat;
+    background-position: 0 50%;
+    background-size: 100%;
+    height: 38.83px;
+    width: 160px;
+}
+section.section--lendable-risk-system,
+header.header--call_to_action.about {
+    background-image: url(../images/backgrounds/tile-pattern-colored.png);
+}
+header.header--call_to_action.about nav.navbar .navbar-header a.navbar-brand > .logo{
+    background-image: url(../images/logos/logo-dark.svg);
+}
+header.header--call_to_action nav.navbar .navbar-header a.navbar-brand {
+    float: left;
+    height: 50px;
+    padding: 7.5px 15px;
+}
+header.header--call_to_action .nav.navbar-nav.investor-button-holder {
+    margin-left: 30px;
+}
+header.header--call_to_action .nav.navbar-nav.investor-button-holder a.btn-clear {
+    padding: 2.5px 15px;
+    margin-top: 15px;
+    font-size: 12px;
+    color: #FFFFFF;
+}
+header.header--call_to_action .nav.navbar-nav.investor-button-holder a.btn-clear.active {
+    color: #ffffff !important;
+    background-color: #35c187;
+    border-color: #35c187;
+    box-shadow: none;
+}
+header.header--call_to_action .bell-notification  {
+    background-image: url(../images/icons/bell-icon.svg);
+    margin-top: 10px;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: 50%;
+    height: 30px;
+    width: 30px;
+    text-align: center;
+    color: #fff !important;
+    padding: 9px !important;
+    font-size: 12px !important;
+    font-family: "canada-type-gibson", Helvetica, Arial, sans-serif;
+    font-weight: 600 !important;
+}
+header.header--call_to_action .div--call_to_action {
+    height: 100%;
+}
+header.header--call_to_action .div--call_to_action .div--call_to_action--text p {
+    margin-bottom: 25px;
+}
+header.header--call_to_action .div--call_to_action .div--call_to_action--text h1 {
+}
+header.header--call_to_action .div--call_to_action .div--call_to_action--text h4 {
+    color: #35c187;
+    text-transform: uppercase;
+}
+header.header--call_to_action .div--call_to_action .div--call_to_action--text .btn {
+    letter-spacing: 0.5px;
+    text-transform: uppercase;
+}
+
+header.header--call_to_action .div--call_to_action .div--call_to_action--text p,
+section.section--scaling .section--scaling--text p,
+section.section--our_investors .section--our_investors--text p, 
+section.section--lendable_platform p,
+section.section--signup_journey p,
+section.section--deal-benefits p,
+section.section--our-alternative-lenders p { 
+    color: #525252;
+    letter-spacing: 0.5px;
+    font-weight: 300;
+    max-width: 100%;
+}
+header.header--call_to_action.about .div--call_to_action .div--call_to_action--text {
+    text-align: center;
+}
+header.header--call_to_action.about .div--call_to_action .div--call_to_action--text h1 {
+    max-width: 100%;
+}
+header.header--call_to_action.about .div--call_to_action .div--call_to_action--text p {
+    width: 100%; 
+}
+.is-hidden {
+  -webkit-transform: translateY(-100%);
+      -ms-transform: translateY(-100%);
+          transform: translateY(-100%);
+    transition: position .6s cubic-bezier(.694,0,.335,1),top 0ms cubic-bezier(.694,0,.335,1) 0ms;
+}
+.secondary-nav-fixed {
+  margin-top: 80px;
+}
+
+section.section--our_investors h2 {
+    margin-top: 24px;
+}
+section.section--our_investors p {
+    margin-top: 24px;
+}
+section.section--our_investors .logos {
+    margin-top: 24px;
+}
+section.section--our_investors .logos > .logo > div {
+    height: 90px;
+    margin-right: 35px;
+    width: 280px;
+
+    background-repeat: no-repeat;
+    background-position: 50%;
+    background-size: 90%;
+}
+section.section--our_investors .logos > .logo > div.ceniarth {
+    background-image: url(../images/logos/ceniarth-logo.svg);
+}
+section.section--our_investors .logos > .logo > div.deutsche-bank {
+    background-image: url(../images/logos/deutsche-bank-logo.svg);
+}
+section.section--our_investors .logos > .logo > div.three-ridge {
+    background-image: url(../images/logos/three-ridge-logo.svg);
+}
+
+section.section--scaling .section--scaling--text h1 {
+    margin-bottom: 24px;
+}
+section.section--scaling .section--scaling--text h2 {
+    width: 330px;
+    margin-bottom: 20px;
+    letter-spacing: 0.22px;
+}
+section.section--scaling .section--scaling--img.scaling-is-hard {
+    background-image: url(../images/icons/scaling-is-hard.svg);
+    background-repeat: no-repeat;
+    background-position: 50%;
+    height: 230px;
+}
+section.section--scaling .scaling-testimony-deck {
+    padding: 20px;
+    background-color: #fff;
+    position: absolute;
+    top: -50px;
+    margin-right: auto;
+    margin-left: auto;
+    box-shadow: 0 0 12.5px 0 rgba(101,101,101,0.50);
+    -moz-box-shadow: 0 0 12.5px 0 rgba(101,101,101,0.50);
+    -webkit-box-shadow: 0 0 12.5px 0 rgba(101,101,101,0.50);
+    left: 0;
+    right: 0;
+}
+section.section--scaling .scaling-testimony-deck .client-logo {
+    min-height: 95px;
+    height: 100%;
+    width: 45%;
+    
+    background-repeat: no-repeat;
+    background-position: 50%;
+    background-size: 90%;
+    position: relative;
+
+    margin-left: auto;
+    margin-right: auto;
+}
+section.section--scaling .scaling-testimony-deck .client-logo.ruh, .ruh {
+    background-image: url(../images/logos/ruh-logo.svg);
+    filter: gray;
+    filter: url("data:image/svg+xml;utf8,<svg xmlns=\'http://www.w3.org/2000/svg\'><filter i…0.3333 0 0 0.3333 0.3333 0.3333 0 0 0 0 0 1 0\'/></filter></svg>#grayscale");
+    -o-filter: url("data:image/svg+xml;utf8,<svg xmlns=\'http://www.w3.org/2000/svg\'><filter i…0.3333 0 0 0.3333 0.3333 0.3333 0 0 0 0 0 1 0\'/></filter></svg>#grayscale");
+    -webkit-filter: grayscale(100%);
+}
+section.section--scaling .scaling-testimony-deck:hover .client-logo.ruh {
+    background-image: url(../images/logos/ruh-logo.svg);
+    filter: none;
+    -o-filter: none;
+    -webkit-filter: none;
+}
+section.section--scaling .scaling-testimony-deck p.testimony-text {
+    color: #35c187;
+    font-size: 14px;
+    line-height: 21px;
+}
+section.section--scaling .scaling-testimony-deck .testimony-speaker {
+    font-size: 14px;
+    line-height: 21px;
+    font-weight: 600;
+}
+
+
+section.section--mission {
+    background-color: #35c187;
+    background-image: url(../images/backgrounds/tile-pattern-colored.png);
+}
+section.section--mission h1 {
+    color: #fff;
+    margin-top: 0;
+}
+
+section.section--signup_journey.investor.squeezed {
+    min-height: 1475px;
+}
+section.section--signup_journey  h2 {
+    text-transform: uppercase;
+    margin-bottom: 0;
+    margin-top: 5px;
+}
+section.section--signup_journey  h2.squeezed {
+    width: 90px;
+}
+section.section--signup_journey  h2.fixed {
+    width: 195px;
+}
+section.section--signup_journey  div.steps{
+    background-repeat: no-repeat;
+}
+section.section--signup_journey.lender  div.steps,
+section.section--signup_journey.investor div.steps {
+    background-image: url(../images/icons/sign-up-journey-lender.svg);
+    height: 185px;
+}
+section.section--signup_journey.investor  div.steps {
+    background-image: url(../images/icons/sign-up-journey-investor.svg);
+    background-size: 98%;
+    background-repeat: no-repeat;
+    min-height: 400px;
+    padding-top: 135px;
+    margin-bottom: 150px;
+}
+section.section--signup_journey.investor .journey-steps.fund div.steps {
+    background-image: url(../images/icons/sign-up-journey-lender.svg);
+}
+
+section.section--signup_journey.investor .buttons {
+    margin-top: 50px;
+}
+section.section--signup_journey.investor .buttons .btn {
+    font-size: 29px;
+    border-radius: 60px;
+    line-height: 24px;
+}
+section.section--signup_journey.investor .buttons .btn.active {
+    color: #fff !important;
+}
+section.section--signup_journey.investor .buttons .btn span {
+    font-size: 14px;
+    text-align: center;
+    font-weight: 300;
+}
+section.section--signup_journey.investor .journey-steps.marketplace {
+    display: none;
+}
+section.section--signup_journey.investor .journey-steps.fund {
+    margin-bottom: 150px;
+}
+section.section--signup_journey.investor .journey-steps.fund div.steps-text p {
+    margin-top: 40px;
+}
+section.section--signup_journey.investor .journey-steps.fund div.steps-text .squeezed {
+    width: 130px;
+}
+section.section--signup_journey div.steps-text {
+    margin-top: -45px;
+}
+section.section--signup_journey.lender .step {
+    padding-left: 0;
+}
+
+section.section--signup_journey.investor .second-row-steps {
+    margin-top: 150px;
+}
+section.section--signup_journey .estimate-form .diamond {
+    background-image: url(../images/icons/diamond.svg);
+    background-repeat: no-repeat;
+    position: absolute;
+    height: 60px;
+    width: 60px;
+    left: 50%;
+    top: -30px;
+    margin-left: -30px;
+    font-size: 40px;
+    color: #fff;
+    text-align: center;
+    font-weight: 600;
+    line-height: 50px;
+    padding: 0;
+}
+section.section--signup_journey .estimate-form .body {
+    padding: 60px;
+    padding-top: 45px;
+}
+section.section--signup_journey .estimate-form h2 {
+    text-align: center;
+    margin-bottom: 32px;
+    font-size: 25px;
+    line-height: 33px;
+}
+section.section--signup_journey .estimate-form .form-group {
+    margin-bottom: 15px;
+}
+section.section--signup_journey .estimate-form .form-group.pair {
+    margin-bottom: 0;
+}
+section.section--signup_journey .estimate-form .form-control {
+    font-size: 16px;
+    box-shadow: none !important;
+    -moz-box-shadow: none !important;
+    -webkit-box-shadow: none !important;
+    border-radius: 0;
+    border-bottom: 1px solid #ccc;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+}
+section.section--signup_journey .estimate-form input.form-control {
+    padding: 25px 12px !important;
+}
+section.section--signup_journey .estimate-form select.form-control {
+    padding: 0px 12px !important;
+    height: 50px;
+}
+section.section--signup_journey.investor .estimate-form .form-group-outer {
+    height: 760px;
+}
+section.section--signup_journey .estimate-form .form-group-outer {
+    background: #ffffff;
+    padding: 0;
+    
+    box-shadow: 0 0 12.5px 0 rgba(101,101,101,0.50);
+    -moz-box-shadow: 0 0 12.5px 0 rgba(101,101,101,0.50);
+    -webkit-box-shadow: 0 0 12.5px 0 rgba(101,101,101,0.50);
+    
+    border-radius: 6px;
+    padding: 0;
+    margin: auto;
+    height: 618px;
+    z-index: 9000;
+    position: relative;
+
+    padding-top: 40px;
+}
+section.section--signup_journey .estimate-form .btn-signup {
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+    border-bottom-left-radius: 6px;
+    border-bottom-right-radius: 6px;
+    
+    color: #35c187;
+    background-color: #262B39;
+    font-size: 22px;
+    padding: 27.5px;
+    bottom: 0;
+}
+section.section--signup_journey .estimate-form .btn-signup:hover,
+section.section--signup_journey .estimate-form .btn-signup:active,
+section.section--signup_journey .estimate-form .btn-signup:focus {
+    background-color: #35c187;
+    color: #262B39;
+    cursor: pointer;
+}
+
+
+section.section--our_investors {
+    background-color: #F4F4F5;
+    min-height: 1112px;
+    padding-top: 255px;
+}
+section.section--our_investors .section--our_investors--text .links {
+    margin-top: 50px;
+    font-weight: 100;
+}
+
+
+section.section--lendable_platform {
+    min-height: 1570px;
+    padding-top: 257px;
+    position: relative;
+}
+section.section--lendable_platform .platform-features {
+    width: 900px;
+    margin-top: 150px;
+    margin-left: auto;
+    margin-right: auto;
+}
+section.section--deal-benefits .col .box, 
+section.section--lendable_platform .platform-features .col .box {
+    box-shadow: 1px 8px 38px -14px rgba(0,0,0,0.32);
+    -moz-box-shadow: 1px 8px 38px -14px rgba(0,0,0,0.32);
+    -webkit-box-shadow: 1px 8px 38px -14px rgba(0,0,0,0.32);
+    width: 95%;
+    max-height: 350px;
+    padding: 50px;
+    height: 100%;
+    border-radius: 3px;
+}
+section.section--deal-benefits .col .box h2,
+section.section--lendable_platform .platform-features .col .box h2 {
+    font-weight: 600;
+    color: #626362;
+}
+section.section--deal-benefits .deal-benefits-head {
+    width: 900px;
+    margin: auto;
+    padding-left: 10px;
+    padding-bottom: 25px;
+}
+section.section--lendable_platform .platform-features .col .box h4 {
+    font-family: "canada-type-gibson", Helvetica, Arial, sans-serif;
+    line-height: 27px;
+    font-size: 21px;
+    margin-top: 17.5px;
+    margin-bottom: 17.5px;
+    color: #262b3a;
+}
+section.section--deal-benefits .col .box .icon,
+section.section--lendable_platform .platform-features .col .box .icon {
+    height: 62px;
+    width: 62px;
+    margin-bottom: 15px;
+    background-size: 98%;
+    background-repeat: no-repeat;
+    background-position: 50%;
+}
+section.section--lendable_platform .platform-features .col .box.upfront-principal .icon {
+    background-image: url(../images/icons/upfront-principal.svg);
+}
+section.section--lendable_platform .platform-features .col .box.safe-secure .icon {
+    background-image: url(../images/icons/safe-secure.svg);
+}
+section.section--lendable_platform .platform-features .col .box.transparent .icon {
+    background-image: url(../images/icons/transparent.svg);
+}
+section.section--lendable_platform .platform-features .col .box.analytics-support .icon {
+    background-image: url(../images/icons/analytics-support.svg);
+}
+section.section--lendable_platform .lendable-platform-screenshot {
+    background-image: url(../images/icons/lendable-platform.png);
+    background-size: 250%;
+    background-repeat: no-repeat;
+    height: 940px;
+    width: 50%;
+    position: absolute;
+    left: 0;
+    top: -360px;
+    z-index: 1000;
+    background-position: 80% 25%;
+}
+
+section.section--deal-benefits {
+    min-height: 816px;
+    padding-top: 90px;
+    padding-bottom: 65px;
+}
+section.section--deal-benefits .section--deal-benefits--text {
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 24px;
+}
+section.section--deal-benefits .col .box .icon {
+    height: 64px;
+    width: 64px;
+    background-size: 98%;
+    background-position: 50%;
+    background-repeat: no-repeat;
+}
+section.section--deal-benefits .col .box.short-term-high-liquidity .icon {
+    background-image: url(../images/icons/short-term-high-liquidity.svg);
+}
+section.section--deal-benefits .col .box.upfront-principal .icon {
+    background-image: url(../images/icons/upfront-principal.svg);
+}
+section.section--deal-benefits .col .box.uncorrelated-yield .icon {
+    background-image: url(../images/icons/uncorrelated-yield.svg);
+}
+section.section--deal-benefits .col .box.high-capital-impact .icon {
+    background-image: url(../images/icons/high-capital-impact.svg);
+}
+section.section--deal-benefits .col .box.capital-protection .icon {
+    background-image: url(../images/icons/capital-protection.svg);
+}
+
+section.section--how-it-works {
+    min-height: 400px;
+    padding-top: 15px;
+}
+section.section--how-it-works h1 {
+    margin-bottom: 30px;
+}
+section.section--how-it-works #how-it-works-slider {
+    min-height: 350px;
+}
+section.section--how-it-works #how-it-works-slider .carousel-indicators {
+    bottom: 5px;
+}
+section.section--how-it-works #how-it-works-slider .carousel-indicators li.active {
+    background-color: #35c187;
+    color: #fff;
+}
+section.section--how-it-works #how-it-works-slider .carousel-indicators li {
+    border: 1px solid #3fc087;
+    border-width: 2px;
+}
+
+
+section.section--deal-benefits-breakdown {
+    min-height: 450px;
+    padding-top: 75px;
+    padding-bottom: 150px;
+}
+section.section--how-it-works .benefits-decks .deck {
+    padding: 40px 50px 40px 40px;
+    min-height: 372px;
+    box-shadow: 1px 8px 38px -14px rgba(0,0,0,0.32);
+    -moz-box-shadow: 1px 8px 38px -14px rgba(0,0,0,0.32);
+    -webkit-box-shadow: 1px 8px 38px -14px rgba(0,0,0,0.32);
+}
+section.section--how-it-works .benefits-decks .deck p {
+    font-size: 18px;
+}
+section.section--how-it-works .benefits-decks .deck h2 {
+    font-weight: 600;
+    width: 90%;
+}
+.compliance-partners .partner a {
+    font-size: 15px;
+    display: block;
+    margin-top: 7.5px;
+    color: #35c187;
+}
+.compliance-partners .partner a:hover {
+    cursor: pointer;
+}
+section.section--how-it-works .benefits-decks .deck {
+    background-color:white;
+}
+section.section--how-it-works .benefits-decks.marketplace {
+    display: flex;
+    position: relative;
+}
+section.section--how-it-works .benefits-decks.fund {
+    display: flex;
+    position: relative;
+}
+section.section--how-it-works .benefits-decks .deck.outsourced {
+    margin-top: 60px;
+}
+section.section--how-it-works .benefits-decks > .benefits-decks-image {
+    width: 100%;
+    height: 100%;
+    background-position-x: 28%;
+}
+section.section--how-it-works .benefits-decks.marketplace > .benefits-decks-image {
+    background-image: url(../images/how-it-works-marketplace.svg);
+}
+section.section--how-it-works .benefits-decks.fund > .benefits-decks-image {
+    background-image: url(../images/how-it-works-fund.svg);
+}
+section.section--how-it-works .buttons {
+    margin-bottom: 50px;
+}
+section.section--how-it-works .buttons .btn.active,
+.btn.active {
+    background-color: #35c187;
+    border-color: #35c187;
+    color: #fff !important;
+    box-shadow: none !important;
+}
+
+section.section--how-it-works .buttons .btn{
+    position:relative;
+    top:48px;
+    z-index:9999;
+    background-color:white;
+}
+
+section.section--lendable-risk-system {
+    padding-top: 150px;
+    padding-bottom: 150px;
+    min-height: 400px;
+    background-color: #35c187;
+}
+section.section--lendable-risk-system.green-bg h1 {
+    margin-bottom: 24px;
+    width: 80%;
+    font-weight: 600;
+}
+section.section--lendable-risk-system.green-bg h4 {
+    margin-bottom: 60px;
+    color: #fff;
+    text-transform: uppercase;
+}
+section.section--lendable-risk-system .lendable-risk-system--features .feature {
+    min-height: 245px;
+    background-color: #fff;
+    margin-bottom: 16px;
+    padding: 40px 60px;
+    box-shadow: 1px 8px 38px -14px rgba(0,0,0,0.32);
+    -moz-box-shadow: 1px 8px 38px -14px rgba(0,0,0,0.32);
+    -webkit-box-shadow: 1px 8px 38px -14px rgba(0,0,0,0.32);
+}
+section.section--lendable-risk-system .lendable-risk-system--features .feature:last-child {
+    margin-bottom: 0;
+}
+section.section--lendable-risk-system .lendable-risk-system--features .feature h2 {
+    font-weight: 600;
+    margin-bottom: 15px;
+}
+section.section--lendable-risk-system .lendable-risk-system--features .feature p {
+    font-size: 18px;
+}
+section.section--lendable-risk-system .lendable-risk-system--features .feature .feature--icon .icon {
+    width: 80px;
+    height: 80px;
+    background-repeat: no-repeat;
+    background-position: 50%;
+    background-size: 85%;
+}
+section.section--lendable-risk-system .lendable-risk-system--features .feature.risk-engine .feature--icon .icon {
+    background-image: url(../images/icons/risk-engine.svg);
+}
+section.section--lendable-risk-system .lendable-risk-system--features .feature.due-diligence .feature--icon .icon {
+    background-image: url(../images/icons/due-diligence.svg);
+}
+section.section--lendable-risk-system .lendable-risk-system--features .feature.realtime-deal-monitoring .feature--icon .icon {
+    background-image: url(../images/icons/real-time.svg);
+}
+section.section--lendable-risk-system .lendable-risk-system--features .feature .feature--text {
+    padding-left: 40px;
+}
+
+
+section.section--our-alternative-lenders {
+    padding-top: 300px;
+    padding-bottom: 150px;
+}
+section.section--our-alternative-lenders h1 {
+    margin-bottom: 18px;
+}
+section.section--our-alternative-lenders h2 {
+    margin-bottom: 12.5px;
+    width: 70%;
+}
+section.section--our-alternative-lenders h4 {
+    color: #35c187;
+    text-transform: uppercase;
+    width: 60%;
+}
+section.section--our-alternative-lenders p {
+    width: 97%;
+}
+section.section--our-alternative-lenders .lenders-slider {
+    position: relative;
+}
+section.section--our-alternative-lenders .lenders-slider {
+    width: 339px;
+    height: 420px;
+}
+section.section--our-alternative-lenders .lenders-slider .slider-image {
+    width: 100%;
+    height: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0;
+    background-image: url(../images/ruh-lender.jpg);
+    background-size: cover;
+
+    box-shadow: 0 0 12.5px 0 rgba(101,101,101,0.50);
+    -moz-box-shadow: 0 0 12.5px 0 rgba(101,101,101,0.50);
+    -webkit-box-shadow: 0 0 12.5px 0 rgba(101,101,101,0.50);
+}
+section.section--our-alternative-lenders .lenders-slider .nav {
+    height: 33px;
+    width: 33px;
+    background-color: #35c187;
+    box-shadow: 0 0 12.5px 0 rgba(101,101,101,0.50);
+    -moz-box-shadow: 0 0 12.5px 0 rgba(101,101,101,0.50);
+    -webkit-box-shadow: 0 0 12.5px 0 rgba(101,101,101,0.50);
+    background-repeat: no-repeat;
+    background-position: 50%;
+    background-size: 65%;
+    cursor: pointer;
+}
+section.section--our-alternative-lenders .lenders-slider .nav-left {
+    left: 10px;
+    top: 30px;
+    background-image: url(../images/icons/nav-left.svg);
+}
+section.section--our-alternative-lenders .lenders-slider .nav-right {
+    right: 10px;
+    bottom: 30px;
+    background-image: url(../images/icons/nav-right.svg);
+}
+section.section--our-alternative-lenders .lenders-slider .nav-left, 
+section.section--our-alternative-lenders .lenders-slider .nav-right {
+    position: absolute;
+}
+section.section--our-alternative-lenders .links {
+    margin-top: 50px;
+    font-weight: 100;
+}
+section.section--our-alternative-lenders .links .logos {
+    margin-top: 24px;
+}
+section.section--our-alternative-lenders .links .logos > .logo > div {
+    height: 70px;
+    margin-right: 35px;
+    width: 200px;
+
+    background-repeat: no-repeat;
+    background-position: 50%;
+    background-size: 90%;
+}
+section.section--our-alternative-lenders .links .logos > .logo > div.ruh {
+    height: 90px;
+    background-position: 0 50%;
+    background-size: 80%;
+}
+section.section--our-alternative-lenders .links .logos > .logo > div.tugende {
+    background-image: url(../images/logos/tugende.svg);
+    height: 115px;
+    background-position: 0 55%;
+    background-size: 100%;
+    opacity: 0.7;
+}
+
+#bios-modal .bios-content .bios-image {
+    height: 386px;
+    width: 225px;
+    background-color: #f8f8f8;
+    background-position: 50%;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.modal-backdrop.in {
+    filter: alpha(opacity=80);
+    opacity: 0.8;
+}
+#bios-modal .bios-content .row{
+    margin: 0;
+}
+#bios-modal .bios-content .bios-text {
+    padding: 20px 25px;
+    height: 100%;
+    overflow-y: auto;
+}
+#bios-modal .modal-header {
+    border-bottom: none;
+    padding: 0;
+    height: 100%;
+}
+#bios-modal .modal-header .close {
+    margin-top: 5px;
+    margin-right: 10px;
+}
+#bios-modal .modal-content {
+    border-radius: 0;
+}
+#bios-modal .modal-content p {
+    font-size: 15px;
+    line-height: 21px;
+    letter-spacing: -0.5px;
+}
+#bios-modal .modal-header h4 {
+    text-transform: uppercase;
+    font-size: 20px;
+    line-height: 29px;
+    letter-spacing: 1.5px;
+    margin-bottom: 5px;
+}
+#bios-modal .modal-header h5 {
+    margin-bottom: 20px;
+    font-size: 13px;
+    line-height: 20px;
+    letter-spacing: 1.25px;
+}
+
+section.section--our_governance .team-profiles .team-profile--profile {
+    margin-top: 35px;
+    cursor: pointer;
+}
+section.section--our_governance .team-profiles .team-profile--profile.daniel .team-profile--profile--photo {
+    background-image: url(../images/profile-photos/daniel.jpg);
+}
+section.section--our_governance .team-profiles .team-profile--profile.arjun .team-profile--profile--photo {
+    background-image: url(../images/profile-photos/arjun.jpg);
+}
+section.section--our_governance .team-profiles .team-profile--profile.dylan .team-profile--profile--photo {
+    background-image: url(../images/profile-photos/dylan.jpg);
+}
+section.section--our_governance .team-profiles .team-profile--profile.fiona .team-profile--profile--photo {
+    background-image: url(../images/profile-photos/fiona.jpg);
+}
+section.section--our_governance .team-profiles .team-profile--profile.sharon .team-profile--profile--photo {
+    background-image: url(../images/profile-photos/sharon.jpg);
+}
+section.section--our_governance .team-profiles .team-profile--profile.james .team-profile--profile--photo {
+    background-image: url(../images/profile-photos/james.png);
+}
+section.section--our_governance .team-profiles .team-profile--profile.andy .team-profile--profile--photo {
+    background-image: url(../images/profile-photos/andy.jpg);
+}
+section.section--our_governance .team-profiles .team-profile--profile.joe .team-profile--profile--photo {
+    background-image: url(../images/profile-photos/joe.jpg);
+}
+section.section--our_governance .team-profiles .team-profile--profile.jeevika .team-profile--profile--photo {
+    background-image: url(../images/profile-photos/jeevika.jpg);
+}
+section.section--our_governance .team-profiles .team-profile--profile.dishon .team-profile--profile--photo {
+    background-image: url(../images/profile-photos/dishon.jpg);
+}
+section.section--our_governance .team-profiles .team-profile--profile.samuel .team-profile--profile--photo {
+    background-image: url(../images/profile-photos/samuel.jpg);
+}
+section.section--our_governance .team-profiles .team-profile--profile.kate .team-profile--profile--photo {
+    background-image: url(../images/profile-photos/kate.jpg);
+}
+section.section--our_governance .team-profiles .team-profile--profile.caroline .team-profile--profile--photo {
+    background-image: url(../images/profile-photos/caroline.jpg);
+    background-position: 50% 0;
+}
+section.section--our_governance .team-profiles .team-profile--profile.chris .team-profile--profile--photo {
+    background-image: url(../images/profile-photos/chris.png);
+}
+section.section--our_governance .team-profiles .team-profile--profile.travis .team-profile--profile--photo {
+    background-image: url(../images/profile-photos/travis.jpg);
+}
+section.section--our_governance .team-profiles .team-profile--profile.josh .team-profile--profile--photo {
+    background-image: url(../images/profile-photos/josh.jpg);
+}
+section.section--our_governance .team-profiles .team-profile--profile.michael .team-profile--profile--photo {
+    background-image: url(../images/profile-photos/michael.png);
+}
+section.section--our_governance .team-profiles .team-profile--profile.christopher .team-profile--profile--photo {
+    background-image: url(../images/profile-photos/christopher.jpg);
+}
+section.section--our_governance .team-profiles .team-profile--profile.kenneth .team-profile--profile--photo {
+    background-image: url(../images/profile-photos/kenneth.png);
+}
+section.section--our_governance .team-profiles .team-profile--profile.samson .team-profile--profile--photo {
+    background-image: url(../images/profile-photos/samson.jpg);
+}
+section.section--our_governance .team-profiles .team-profile--profile .frame {
+    background: #FFFFFF;
+
+    box-shadow: 0 4px 18px 3px rgba(0,0,0,0.05);
+    -moz-box-shadow: 0 4px 18px 3px rgba(0,0,0,0.05);
+    -webkit-box-shadow: 0 4px 18px 3px rgba(0,0,0,0.05);
+}
+section.section--our_governance .team-profiles .team-profile--profile .team-profile--profile--photo {
+    background-repeat: no-repeat;
+    background-color: #f4f4f5;
+    background-position: 50%;
+    background-size: 100%;
+    width: 291px;
+    height: 291px;
+}
+section.section--our_governance .team-profiles .team-profile--profile .team-profile--profile--text {
+    background-color: #fff;
+    padding: 10px;
+    text-align: left;
+}
+section.section--our_governance .team-profiles .team-profile--profile .team-profile--profile--text 
+section.section--our_governance .team-profiles .team-profile--profile {
+    margin-top: 30px;
+}
+section.section--our_governance .team-profiles .team-profile--profile .team-profile--profile--text h4.name {
+    margin-bottom: 5px;
+    margin-top: 0;
+    color: #525252;
+    letter-spacing: 0.33px;
+}
+section.section--our_governance .team-profiles .team-profile--profile .team-profile--profile--text p.title {
+    color: #525252;
+}
+section.section--our_governance .team-profiles .team-profile--profile .team-profile--profile--text a.read-more {
+    font-family: Gibson-SemiBold;
+    font-size: 12px;
+    color: #35C187;
+    letter-spacing: 0.19px;
+    line-height: 27px;
+    text-transform: uppercase;
+}
+section.section--our_governance .advisory-board h4 {
+    margin-bottom: 25px;
+}
+section.section--our_governance .compliance .compliance-partners .partner {
+    margin-top: 45px;
+}
+section.section--our_governance .compliance .compliance-partners .partner h4 {
+    margin-bottom: 0px;
+}
+section.section--our_governance .team-profiles .team-profile--profile.blank .frame {
+    width: 291px;
+    box-shadow: none;
+}
+
+section.section--key-pillars {
+    padding-top: 50px;
+    padding-bottom: 20px;
+}
+section.section--key-pillars p {
+    color: #525252;
+}
+section.section--key-pillars h2 {
+    font-weight: 600;
+    color: #626362;
+}
+
+footer.dark-footer {
+    background-color: #262B39;
+    min-height: 500px;
+    color: #FFFFFF;
+    padding-top: 80px;
+    padding-bottom: 80px;
+
+}
+footer.dark-footer h4 {
+    text-transform: uppercase;
+}
+footer.dark-footer p {
+    font-size: 15px;
+    margin-top: 15px;
+    margin-bottom: 25px;
+    line-height: 22px;
+}
+footer.dark-footer a {
+    color: #FFFFFF;
+}
+footer.dark-footer .contact.us h4 {
+    opacity: 0;
+}
+footer .logo-box {
+    margin-top: 30px;
+
+    height: 60px;
+    width: 60px;
+
+    background-image: url(../images/logos/logo-sm.svg);
+
+    background-position: 50%;
+    background-size: 100%;
+}
+footer .social-media-links .fa {
+    width: 20px;
+    height: 20px;
+    font-size: 20px;
+    color: #35c187;
+    margin-right: 10px;
+}

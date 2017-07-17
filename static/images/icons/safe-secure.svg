@@ -1,0 +1,10 @@
+<svg class="nc-icon outline" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="64px" height="64px" viewBox="0 0 64 64"><g transform="translate(0, 0)">
+<path data-cap="butt" fill="none" stroke="#35c187" stroke-width="2" stroke-miterlimit="10" d="M37,40.548
+	C34.332,40.209,31.336,40,28,40c-11.14,0-18.494,2.331-22.453,4.087C3.379,45.048,2,47.196,2,49.567V60h32" stroke-linejoin="miter" stroke-linecap="butt"></path>
+<circle data-color="color-2" data-stroke="none" fill="#262b3a" cx="52" cy="55" r="2" stroke-linejoin="miter" stroke-linecap="square"></circle>
+<path fill="none" stroke="#35c187" stroke-width="2" stroke-linecap="square" stroke-miterlimit="10" d="M14,16
+	c0-7.732,6.268-14,14-14s14,6.268,14,14s-6.268,16-14,16S14,23.732,14,16z" stroke-linejoin="miter"></path>
+<rect data-color="color-2" x="42" y="48" fill="none" stroke="#262b3a" stroke-width="2" stroke-linecap="square" stroke-miterlimit="10" width="20" height="14" stroke-linejoin="miter"></rect>
+<path data-color="color-2" fill="none" stroke="#262b3a" stroke-width="2" stroke-linecap="square" stroke-miterlimit="10" d="M46,48v-8
+	c0-3.314,2.686-6,6-6h0c3.314,0,6,2.686,6,6v8" stroke-linejoin="miter"></path>
+</g></svg>

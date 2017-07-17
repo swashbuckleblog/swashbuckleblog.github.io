@@ -4,13 +4,16 @@ title:      "Press Release"
 subtitle:   "Lendable secures USD550k debt financing for Azuri Technologies Distributor, Raj Ushanga House"
 date:       2017-05-09 01:00:00
 header-img: "img/ruh_press_release/ruh1edited.JPG"
+tags:       press-release news
+twitter-link: https://twitter.com/lendableinc
+linkedin-link: https://www.linkedin.com/company-beta/7952833/
 ---
 
 
 _April 26, 2017_- The rural roll-out of scalable solar power in Kenya is set to accelerate with the announcement today of an innovative USD550k financing arrangement. Finance platform Lendable has secured USD550K debt financing for Raj Ushanga House (RUH), the Kenya distributor for Azuri Technologies Ltd, a leading provider of Pay-as-you-go (PayGo) solar energy solutions.   
 
 Using an innovative, data driven, “receivables financing” solution, capital is secured by future customer revenues from a high-quality portfolio of over 7,000 RUH PayGo solar customer contracts, and is the first such financing by Lendable for a PayGo energy company.
-Raju Haria, CEO of Raj Ushanga House says, “The debt financing from Lendable marks an exciting chapter for RUH. It enables us to reach more customers and finance their ownership of these assets. We will also be able to significantly expand the availability and variety of Azuri solar home systems in Kenya.”   
+Raju Haria, CEO of Raj Ushanga House says, “The debt financing from Lendable marks an exciting chapter for RUH. It enables us to reach more customers and finance their ownership of these assets. We will also be able to significantly expand the availability and variety of Azuri solar home systems in Kenya.”
 
 
 <p>

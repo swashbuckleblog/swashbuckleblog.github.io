@@ -5,9 +5,10 @@ subtitle:   "Lendable's multi-dimensional framework accounts for the different k
 date:       2016-03-29 12:00:00
 author:     "Jim Savage, data scientist"
 header-img: "img/risk/chickens_original.png"
+tags:       risk-engine analytics
 ---
 
-# **A CASE STUDY**
+## A CASE STUDY
 
 Joseph, a shopkeeper just outside Kampala, Uganda, recently had a small solar power unit installed. He will use the power to light his store and to offer cell phone charging to locals. To finance the unit, he entered a two year repayment contract with ACME Solar; he had to put down 20 percent of the $600 USD as an initial downpayment, and is obliged to repay the remaining amount in 23 monthly instalments.
  
@@ -17,7 +18,7 @@ As you’ve likely read elsewhere, we allow firms like ACME—firms providing fi
  
 It’s not an overstatement to say that Joseph’s repayments (how much he will repay and over what time-frame) are the most basic unit in the value chain. Predicting the characteristics of Joseph’s repayments can give both ACME and those who purchase its receivables an edge. To these ends, Lendable has built tools to help predict how good a customer Joseph is likely to be. These tools are based on best practice in credit risk and asset management, but here applied to the unbanked.
 
-# **LENDABLE'S REPAYMENT RISK FRAMEWORK**
+## LENDABLE'S REPAYMENT RISK FRAMEWORK
 
 The risks of Joseph defaulting or, more commonly, paying his debt more slowly than anticipated, can be thought of as coming from two broad sources. We call these “portfolio risk”, those risk factors that are external to Joseph, and “credit risk”, the risk of lending to Joseph that are distinctive to him. It’s helpful to separate these risks; without understanding the magnitude of each, we have no understanding about what is driving risk in the portfolio and therefore cannot mitigate it.
  
@@ -44,7 +45,7 @@ From the perspective of a lender, the raw probability of Joseph’s default is j
 
 
 
-# **INDUCTION PROBLEMS**
+## INDUCTION PROBLEMS
 
 The central issue with modelling portfolio risk is that the range of plausible scenarios for a portfolio of receivables are much wider than what has been observed in the data. This means that estimates of portfolio risk that come solely from observed history will always be a rosy view of the true risk—the so-called inductive fallacy popularized by Karl Popper in the 20th century, and discussed more recently by Nassim Nicholas Taleb (whose excellent book Fooled By Randomness is required reading for all investors).
 
@@ -57,7 +58,7 @@ The central issue with modelling portfolio risk is that the range of plausible s
 We employ two practices that can help with this problem. First, our portfolio Risk Engine explicitly allows for portfolio-level repayments with “fat-tails”—large negative outcomes without precedent. Second, while the portfolios that we monitor have not experienced a “black swan” event, there are many other asset classes that have. We cannot predict black swans, but through deep research of various historical episodes, we can get an idea of what they look like, and incorporate the magnitudes of such possibilities in our models.
 
 
-# **HOW DO WE DO THIS?**
+## HOW DO WE DO THIS?
 
 
 Unlike many banks and insurance companies, Lendable has no problems with outdated legacy software or large corporate bureaucracy, allowing us to develop a portfolio Risk Engine that makes use of very recent advances in computation, statistics and machine learning.
@@ -76,6 +77,6 @@ A common question posed to us is why we do not use popular machine-learning algo
  
 While we still make use of these techniques for some applications (especially working out which variables are the most important for predicting repayments), we do not use them for predicting repayments. The reason is that without very large modifications, during estimation these methods treat each observation as though it is independent of other observations. Yet it is precisely the correlation between individuals’ repayments—the lack of independence—that presents the largest risk to investors. The consequence is that predictions from machine-learning style models tend to understate the amount of risk in the portfolio. In contrast, Lendable’s portfolio Risk Engine is built from the ground up to measure and model the correlations between individuals’ repayments, allowing Lendable to get a better gage of downside risks and the most appropriate advance rate for Joseph’s receivables.
 
-# **CONCLUSION**  
+## CONCLUSION  
 
 It is not riskless to lend to Joseph. Yet a mature analysis of ACME Solar’s repayments data can reveal many (but not all) risks that potential investors ought to expect. Deep research into episodes of crisis can help illuminate the sorts of risk that the data do not. These two tasks are combined in Lendable’s Risk Engine. This sophisticated approach to approaching the risks of Joseph repaying his debt help Lendable set terms on its securitization, boosting confidence for lender and borrower alike. 
